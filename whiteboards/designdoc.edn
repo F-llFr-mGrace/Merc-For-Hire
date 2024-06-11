@@ -1,0 +1,331 @@
+{:blocks (
+{:block/content ""
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "66671a87-7238-445b-b8ee-71d455e274a6"}
+:block/parent 
+{:block/uuid #uuid "66671a87-7238-445b-b8ee-71d455e274a6"}
+:block/uuid #uuid "66671abf-69e4-416f-a262-b01f5a1e9764"} 
+{:block/content "MercForHire"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "66671abf-69e4-416f-a262-b01f5a1e9764"}
+:block/parent 
+{:block/uuid #uuid "66671a87-7238-445b-b8ee-71d455e274a6"}
+:block/properties 
+{}
+:block/uuid #uuid "66671ac5-0cdb-48d4-bc27-3bb009c3f804"} 
+{:block/created-at 1718033467980
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 0
+:scale [1 1]
+:pageId "66671ac5-0cdb-48d4-bc27-3bb009c3f804"
+:scaleLevel "lg"
+:fill ""
+:compact true
+:isAutoResizing false
+:type "logseq-portal"
+:size [600 61.5]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "958a6ca0-273d-11ef-bddc-83c59722f0ad"
+:noFill false
+:point [552 368]
+:parentId "66671a87-7238-445b-b8ee-71d455e274a6"
+:collapsedHeight 0
+:nonce 1718033092907}}
+:block/updated-at 1718033467980} 
+{:block/created-at 1718033546447
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 1
+:scale [1 1]
+:pageId "Systems"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [384 64]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "bf3821f0-273d-11ef-bddc-83c59722f0ad"
+:noFill false
+:point [448 456]
+:parentId "66671a87-7238-445b-b8ee-71d455e274a6"
+:collapsedHeight 64
+:nonce 1718033163316}}
+:block/updated-at 1718033546447} 
+{:block/created-at 1718033542721
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 2
+:scale [1 1]
+:pageId "Setting & Story"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 64]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "56a6ead0-273e-11ef-bddc-83c59722f0ad"
+:noFill false
+:point [888 456]
+:parentId "66671a87-7238-445b-b8ee-71d455e274a6"
+:collapsedHeight 0
+:nonce 1718033417065}}
+:block/updated-at 1718033542721} 
+{:block/created-at 1718033546448
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 3
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "7df97212-273e-11ef-bddc-83c59722f0ad"
+:fontWeight 400
+:noFill true
+:point [790.11 430.5]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [24.99 0]
+:bindingId "7df97210-273e-11ef-bddc-83c59722f0ad"}
+:end 
+{:id "end"
+:canBind true
+:point [0 21.5]
+:bindingId "7df97211-273e-11ef-bddc-83c59722f0ad"}}
+:decorations 
+{:end "arrow"}
+:parentId "66671a87-7238-445b-b8ee-71d455e274a6"
+:nonce 1718033482787
+:italic false}}
+:block/updated-at 1718033546448} 
+{:block/created-at 1718033542721
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 4
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "822a98a2-273e-11ef-bddc-83c59722f0ad"
+:fontWeight 400
+:noFill true
+:point [905.27 430.5]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]
+:bindingId "822a98a0-273e-11ef-bddc-83c59722f0ad"}
+:end 
+{:id "end"
+:canBind true
+:point [36.08 21.5]
+:bindingId "87500a41-273e-11ef-bddc-83c59722f0ad"}}
+:decorations 
+{:end "arrow"}
+:parentId "66671a87-7238-445b-b8ee-71d455e274a6"
+:nonce 1718033490085
+:italic false}}
+:block/updated-at 1718033542721} 
+{:block/created-at 1718033546448
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 5
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "95a0be52-273e-11ef-bddc-83c59722f0ad"
+:fontWeight 400
+:noFill true
+:point [833 503.13]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]
+:bindingId "95a0be50-273e-11ef-bddc-83c59722f0ad"}
+:end 
+{:id "end"
+:canBind true
+:point [51 3.99]
+:bindingId "95a0be51-273e-11ef-bddc-83c59722f0ad"}}
+:decorations 
+{:end "arrow"}
+:parentId "66671a87-7238-445b-b8ee-71d455e274a6"
+:nonce 1718033522635
+:italic false}}
+:block/updated-at 1718033546448} 
+{:block/created-at 1718033546448
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 6
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "9957d2e2-273e-11ef-bddc-83c59722f0ad"
+:fontWeight 400
+:noFill true
+:point [836 468.69]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [51 3.91]
+:bindingId "9957d2e0-273e-11ef-bddc-83c59722f0ad"}
+:end 
+{:id "end"
+:canBind true
+:point [0 0]
+:bindingId "9957d2e1-273e-11ef-bddc-83c59722f0ad"}}
+:decorations 
+{:end "arrow"}
+:parentId "66671a87-7238-445b-b8ee-71d455e274a6"
+:nonce 1718033528684
+:italic false}}
+:block/updated-at 1718033546448})
+:pages (
+{:block/uuid #uuid "66671a87-7238-445b-b8ee-71d455e274a6"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "66671a87-7238-445b-b8ee-71d455e274a6"
+:name "designdoc"
+:bindings 
+{:7df97210-273e-11ef-bddc-83c59722f0ad 
+{:id "7df97210-273e-11ef-bddc-83c59722f0ad"
+:type "line"
+:fromId "7df97212-273e-11ef-bddc-83c59722f0ad"
+:toId "958a6ca0-273d-11ef-bddc-83c59722f0ad"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:822a98a0-273e-11ef-bddc-83c59722f0ad 
+{:id "822a98a0-273e-11ef-bddc-83c59722f0ad"
+:type "line"
+:fromId "822a98a2-273e-11ef-bddc-83c59722f0ad"
+:toId "958a6ca0-273d-11ef-bddc-83c59722f0ad"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:87500a41-273e-11ef-bddc-83c59722f0ad 
+{:id "87500a41-273e-11ef-bddc-83c59722f0ad"
+:type "line"
+:fromId "822a98a2-273e-11ef-bddc-83c59722f0ad"
+:toId "56a6ead0-273e-11ef-bddc-83c59722f0ad"
+:handleId "end"
+:point [0.41 0.91]
+:distance 4}
+:95a0be51-273e-11ef-bddc-83c59722f0ad 
+{:id "95a0be51-273e-11ef-bddc-83c59722f0ad"
+:type "line"
+:fromId "95a0be52-273e-11ef-bddc-83c59722f0ad"
+:toId "56a6ead0-273e-11ef-bddc-83c59722f0ad"
+:handleId "end"
+:point [0.1 0.81]
+:distance 4}
+:95a0be50-273e-11ef-bddc-83c59722f0ad 
+{:id "95a0be50-273e-11ef-bddc-83c59722f0ad"
+:type "line"
+:fromId "95a0be52-273e-11ef-bddc-83c59722f0ad"
+:toId "bf3821f0-273d-11ef-bddc-83c59722f0ad"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:7df97211-273e-11ef-bddc-83c59722f0ad 
+{:id "7df97211-273e-11ef-bddc-83c59722f0ad"
+:type "line"
+:fromId "7df97212-273e-11ef-bddc-83c59722f0ad"
+:toId "bf3821f0-273d-11ef-bddc-83c59722f0ad"
+:handleId "end"
+:point [0.71 0.81]
+:distance 4}
+:822a98a1-273e-11ef-bddc-83c59722f0ad 
+{:id "822a98a1-273e-11ef-bddc-83c59722f0ad"
+:type "line"
+:fromId "822a98a2-273e-11ef-bddc-83c59722f0ad"
+:toId "56a6ead0-273e-11ef-bddc-83c59722f0ad"
+:handleId "end"
+:point [0.27 0.86]
+:distance 4}
+:9957d2e1-273e-11ef-bddc-83c59722f0ad 
+{:id "9957d2e1-273e-11ef-bddc-83c59722f0ad"
+:type "line"
+:fromId "9957d2e2-273e-11ef-bddc-83c59722f0ad"
+:toId "bf3821f0-273d-11ef-bddc-83c59722f0ad"
+:handleId "end"
+:point [0.78 0.14]
+:distance 4}
+:9957d2e0-273e-11ef-bddc-83c59722f0ad 
+{:id "9957d2e0-273e-11ef-bddc-83c59722f0ad"
+:type "line"
+:fromId "9957d2e2-273e-11ef-bddc-83c59722f0ad"
+:toId "56a6ead0-273e-11ef-bddc-83c59722f0ad"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}}
+:nonce 1
+:assets []
+:shapes-index ("958a6ca0-273d-11ef-bddc-83c59722f0ad" "bf3821f0-273d-11ef-bddc-83c59722f0ad" "56a6ead0-273e-11ef-bddc-83c59722f0ad" "7df97212-273e-11ef-bddc-83c59722f0ad" "822a98a2-273e-11ef-bddc-83c59722f0ad" "95a0be52-273e-11ef-bddc-83c59722f0ad" "9957d2e2-273e-11ef-bddc-83c59722f0ad")}}
+:block/updated-at 1718033546447
+:block/created-at 1718033031372
+:block/type "whiteboard"
+:block/name "designdoc"
+:block/original-name "designdoc"})}
