@@ -1,6 +1,0 @@
-- SafeHouse
-	- Possible saving options
-		- Only save at SafeHouse
-		- SH & save every few minutes
-		- "Estus flask"
-			- Going to SH refills consumable that allows player to save

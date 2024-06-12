@@ -1,0 +1,1 @@
+- Going to #SafeHouse refills a value that allows player to save

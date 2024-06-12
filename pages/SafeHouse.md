@@ -1,0 +1,6 @@
+- #SafeHouse system
+	- Possible saving options
+		- Only save at #SafeHouse
+		- SH & save every few minutes
+		- #EstusSaving
+		- No #EstusSaving while trespassing or in #Combat

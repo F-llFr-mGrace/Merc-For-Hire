@@ -1,0 +1,3 @@
+- Any significant occurrence in any social sphere
+- Events will happen organically between #Factions as relationships form or degrade
+- World Events effect at least the #GeneralPublic and a few #Factions

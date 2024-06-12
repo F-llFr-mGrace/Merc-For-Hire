@@ -1,0 +1,14 @@
+- Shops
+	- Vendor types
+		- Outlet stores
+			- Cheap & Mainstream items
+		- Online stores
+			- More expensive niche items
+		- Black market
+			- High #Reputation requirement
+			- Expensive, highly restricted items
+			  id:: 6668eeeb-fc2c-4446-ad47-2442a200b618
+	- #Medical
+	- #Weapons
+	- #ComputerTech
+	- #Consumables

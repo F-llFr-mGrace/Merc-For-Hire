@@ -1,0 +1,215 @@
+{:blocks (
+{:block/created-at 1718220673069
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 1
+:scale [1 1]
+:pageId "Handlers"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 243.0000248597334]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "742c0b00-28e5-11ef-9588-01171a2be0f2"
+:noFill false
+:point [712 368]
+:parentId "6669e0b0-b44e-4bce-80ed-41e377de4e6a"
+:collapsedHeight 170.99999782348146
+:nonce 1718215143393}}
+:block/updated-at 1718220673069} 
+{:block/content ""
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6669f6b5-8323-4405-af4c-d53f1e9f08b0"}
+:block/parent 
+{:block/uuid #uuid "6669f6b5-8323-4405-af4c-d53f1e9f08b0"}
+:block/uuid #uuid "6669e266-0d0a-422f-899e-407d7def2e9e"} 
+{:block/created-at 1718220673067
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 0
+:scale [1 1]
+:pageId "Gigs"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 113.00004163780756]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "565ab190-28e9-11ef-8654-1f24748c7f34"
+:noFill false
+:isLocked false
+:point [1112 368]
+:parentId "6669e55a-972c-41a6-a008-fa286c12ade7"
+:collapsedHeight 0
+:nonce 1718216811441}}
+:block/updated-at 1718220673067} 
+{:block/created-at 1718220673069
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 2
+:scale [1 1]
+:pageId "GeneralPublic"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 141.99999249989565]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "208bcb00-28ec-11ef-8654-1f24748c7f34"
+:noFill false
+:point [1512 368]
+:parentId "6669e55a-972c-41a6-a008-fa286c12ade7"
+:collapsedHeight 0
+:nonce 1718218009849}}
+:block/updated-at 1718220673069} 
+{:block/created-at 1718220673070
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 3
+:scale [1 1]
+:pageId "PublicKnowledge"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 200.000026698741]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "4d422c70-28ec-11ef-8654-1f24748c7f34"
+:noFill false
+:point [1512 512]
+:parentId "6669e55a-972c-41a6-a008-fa286c12ade7"
+:collapsedHeight 0
+:nonce 1718218084742}}
+:block/updated-at 1718220673070} 
+{:block/created-at 1718220673070
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 4
+:scale [1 1]
+:pageId "PublicBody"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 166.00000535836762]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "525b4200-28ec-11ef-8654-1f24748c7f34"
+:noFill false
+:point [1912 512]
+:parentId "6669e55a-972c-41a6-a008-fa286c12ade7"
+:collapsedHeight 0
+:nonce 1718218093202}}
+:block/updated-at 1718220673070} 
+{:block/created-at 1718220673070
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 5
+:scale [1 1]
+:pageId "Events"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 242.99999823794337]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "e655a4a0-28ec-11ef-8654-1f24748c7f34"
+:noFill false
+:point [-88 368]
+:parentId "6669e55a-972c-41a6-a008-fa286c12ade7"
+:collapsedHeight 0
+:nonce 1718218341765}}
+:block/updated-at 1718220673070} 
+{:block/created-at 1718220673070
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 6
+:scale [1 1]
+:pageId "Factions"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 311.0000093476061]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "28b9cc40-28ed-11ef-8654-1f24748c7f34"
+:noFill false
+:point [312 368]
+:parentId "6669e55a-972c-41a6-a008-fa286c12ade7"
+:collapsedHeight 0
+:nonce 1718218453361}}
+:block/updated-at 1718220673070})
+:pages (
+{:block/uuid #uuid "6669f6b5-8323-4405-af4c-d53f1e9f08b0"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "6669e0b0-b44e-4bce-80ed-41e377de4e6a"
+:name "social"
+:bindings 
+{}
+:nonce 1
+:assets []
+:shapes-index ("742c0b00-28e5-11ef-9588-01171a2be0f2")}}
+:block/updated-at 1718215272989
+:block/created-at 1718214832087
+:block/type "whiteboard"
+:block/name "social"
+:block/original-name "Social"})}

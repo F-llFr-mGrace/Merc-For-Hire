@@ -1,0 +1,4 @@
+- All information that can be accessed by NPC's or the player
+	- Well known #Factions
+	- Non-anonymous player action
+	- #Events

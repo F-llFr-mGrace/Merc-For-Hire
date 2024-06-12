@@ -1,0 +1,276 @@
+{:blocks (
+{:block/created-at 1718224095053
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 0
+:scale [1 1]
+:pageId "Combat"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 171]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "be3a0a90-28f8-11ef-8654-1f24748c7f34"
+:noFill false
+:point [1792 384]
+:parentId "666a0211-ea18-454c-ae79-e21396e3a192"
+:collapsedHeight 0
+:nonce 1718223428423}}
+:block/updated-at 1718224095053} 
+{:block/created-at 1718224095048
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 1
+:scale [1 1]
+:pageId "Vendors"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 485]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "c3316750-28f8-11ef-8654-1f24748c7f34"
+:noFill false
+:point [960 384]
+:parentId "666a0211-ea18-454c-ae79-e21396e3a192"
+:collapsedHeight 0
+:nonce 1718223436755}}
+:block/updated-at 1718224095048} 
+{:block/content "Taps"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "666a0211-ea18-454c-ae79-e21396e3a192"}
+:block/uuid #uuid "666a02d4-f062-43fd-8383-0e169b5a368b"} 
+{:block/created-at 1718224095053
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 2
+:scale [1 1]
+:pageId "666a02d4-f062-43fd-8383-0e169b5a368b"
+:scaleLevel "md"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 41]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "0dc29b40-28f9-11ef-8654-1f24748c7f34"
+:noFill false
+:point [960 320]
+:parentId "666a0211-ea18-454c-ae79-e21396e3a192"
+:collapsedHeight 0
+:nonce 1718223561945}}
+:block/updated-at 1718224095053} 
+{:block/content "Drains"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "666a0211-ea18-454c-ae79-e21396e3a192"}
+:block/uuid #uuid "666a02e9-31cd-44d1-9f4a-5060cbd356d1"} 
+{:block/created-at 1718224095054
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 3
+:scale [1 1]
+:pageId "666a02e9-31cd-44d1-9f4a-5060cbd356d1"
+:scaleLevel "md"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 41]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "1cbcd5c0-28f9-11ef-8654-1f24748c7f34"
+:noFill false
+:point [1792 320]
+:parentId "666a0211-ea18-454c-ae79-e21396e3a192"
+:collapsedHeight 0
+:nonce 1718223587044}}
+:block/updated-at 1718224095054} 
+{:block/content "Items"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "666a0211-ea18-454c-ae79-e21396e3a192"}
+:block/uuid #uuid "666a032d-eb55-46e3-8d3f-11e8407c27f3"} 
+{:block/created-at 1718224095054
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 4
+:scale [1 1]
+:pageId "666a032d-eb55-46e3-8d3f-11e8407c27f3"
+:scaleLevel "md"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 41]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "451c8740-28f9-11ef-8654-1f24748c7f34"
+:noFill false
+:point [1376 320]
+:parentId "666a0211-ea18-454c-ae79-e21396e3a192"
+:collapsedHeight 0
+:nonce 1718223654616}}
+:block/updated-at 1718224095054} 
+{:block/created-at 1718224095054
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 5
+:scale [1 1]
+:pageId "Weapons"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 195]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "5f3fa8f0-28f9-11ef-8654-1f24748c7f34"
+:noFill false
+:point [1376 384]
+:parentId "666a0211-ea18-454c-ae79-e21396e3a192"
+:collapsedHeight 0
+:nonce 1718223698313}}
+:block/updated-at 1718224095054} 
+{:block/created-at 1718224095054
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 6
+:scale [1 1]
+:pageId "Medical"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 137]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "67fb1290-28f9-11ef-8654-1f24748c7f34"
+:noFill false
+:point [1376 608]
+:parentId "666a0211-ea18-454c-ae79-e21396e3a192"
+:collapsedHeight 0
+:nonce 1718223713007}}
+:block/updated-at 1718224095054} 
+{:block/created-at 1718224095054
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 7
+:scale [1 1]
+:pageId "ComputerTech"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 113]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "6ffbb7b0-28f9-11ef-8654-1f24748c7f34"
+:noFill false
+:point [1376 768]
+:parentId "666a0211-ea18-454c-ae79-e21396e3a192"
+:collapsedHeight 0
+:nonce 1718223727050}}
+:block/updated-at 1718224095054} 
+{:block/created-at 1718224095054
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 8
+:scale [1 1]
+:pageId "Consumables"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 248]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "88ba1940-28f9-11ef-8654-1f24748c7f34"
+:noFill false
+:point [1376 896]
+:parentId "666a0211-ea18-454c-ae79-e21396e3a192"
+:collapsedHeight 0
+:nonce 1718223768356}}
+:block/updated-at 1718224095054})
+:pages (
+{:block/uuid #uuid "666a0211-ea18-454c-ae79-e21396e3a192"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "666a0211-ea18-454c-ae79-e21396e3a192"
+:name "Items"
+:ls-type :whiteboard-page
+:bindings 
+{}
+:nonce 1
+:assets []}}
+:block/updated-at 1718223377500
+:block/created-at 1718223377500
+:block/type "whiteboard"
+:block/name "economy"
+:block/original-name "Economy"})}

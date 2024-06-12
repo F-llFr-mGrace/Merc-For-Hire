@@ -1,0 +1,3 @@
+- Any physical item that can be used to cause damage
+	- Ranged
+	- Melee

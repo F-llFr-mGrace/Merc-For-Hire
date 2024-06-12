@@ -1,0 +1,4 @@
+- Any person not generally affiliated with #Factions
+	- Examples
+		- Crowds
+		- By-standers

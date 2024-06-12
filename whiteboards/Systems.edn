@@ -1,49 +1,5 @@
 {:blocks (
-{:block/content "Combat"
-:block/format :markdown
-:block/left 
-{:block/uuid #uuid "66671b1b-4b37-466d-8a06-ecfdfff96f24"}
-:block/properties 
-{}
-:block/uuid #uuid "66671cbb-2fee-41c3-9975-6f03918b284b"} 
-{:block/content "Saving"
-:block/format :markdown
-:block/left 
-{:block/uuid #uuid "66671b1b-4b37-466d-8a06-ecfdfff96f24"}
-:block/uuid #uuid "66671ccc-3c8a-4658-ad0a-414f0fd13cc6"} 
-{:block/content "Safehouses"
-:block/format :markdown
-:block/left 
-{:block/uuid #uuid "66671b1b-4b37-466d-8a06-ecfdfff96f24"}
-:block/uuid #uuid "66671cf8-307a-4a12-b9c8-92b10fbe6949"} 
-{:block/created-at 1718115824248
-:block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:blockType "P"
-:stroke ""
-:collapsed false
-:borderRadius 8
-:index 0
-:scale [1 1]
-:pageId "Combat"
-:scaleLevel "md"
-:fill ""
-:compact false
-:isAutoResizing true
-:type "logseq-portal"
-:size [400 200.000030022582]
-:strokeType "line"
-:strokeWidth 2
-:opacity 1
-:id "3a2968f0-273f-11ef-bddc-83c59722f0ad"
-:noFill false
-:point [640 128]
-:parentId "66671b1b-4b37-466d-8a06-ecfdfff96f24"
-:collapsedHeight 0
-:nonce 1718033798683}}
-:block/updated-at 1718115824248} 
-{:block/created-at 1718115832216
+{:block/created-at 1718223401884
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -53,24 +9,31 @@
 :borderRadius 8
 :index 1
 :scale [1 1]
-:pageId "Saving"
+:pageId "Social"
 :scaleLevel "md"
 :fill ""
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [400 281.9999932872273]
+:size [400 346.000028733288]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
-:id "4685a000-273f-11ef-bddc-83c59722f0ad"
+:id "b968ea90-28e4-11ef-9588-01171a2be0f2"
 :noFill false
-:point [1040 128]
+:point [2056 96]
 :parentId "66671b1b-4b37-466d-8a06-ecfdfff96f24"
 :collapsedHeight 0
-:nonce 1718033819458}}
-:block/updated-at 1718115832216} 
-{:block/created-at 1718115834454
+:nonce 1718214830460}}
+:block/updated-at 1718223401884} 
+{:block/content "MercForHire"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "66671ccc-3c8a-4658-ad0a-414f0fd13cc6"}
+:block/parent 
+{:block/uuid #uuid "66671b1b-4b37-466d-8a06-ecfdfff96f24"}
+:block/uuid #uuid "6669f3ae-28a0-46d5-968f-4e8d6a9983f6"} 
+{:block/created-at 1718223401884
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -80,23 +43,155 @@
 :borderRadius 8
 :index 2
 :scale [1 1]
-:pageId "Econ"
+:pageId "DesignGoals"
 :scaleLevel "md"
 :fill ""
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [400 200.00002646680568]
+:size [400 359.00000341792133]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
-:id "fbae5490-27fd-11ef-aabe-ff356814ef23"
+:id "6cb7e2e0-28ef-11ef-8654-1f24748c7f34"
 :noFill false
-:point [1440 128]
+:point [456 96]
 :parentId "66671b1b-4b37-466d-8a06-ecfdfff96f24"
 :collapsedHeight 0
-:nonce 1718115727643}}
-:block/updated-at 1718115834454})
+:nonce 1718219426610}}
+:block/updated-at 1718223401884} 
+{:block/content "Saving"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "66671b1b-4b37-466d-8a06-ecfdfff96f24"}
+:block/parent 
+{:block/uuid #uuid "66671b1b-4b37-466d-8a06-ecfdfff96f24"}
+:block/uuid #uuid "66671ccc-3c8a-4658-ad0a-414f0fd13cc6"} 
+{:block/created-at 1718223401879
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 0
+:scale [1 1]
+:pageId "Reputation"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 547.0000505548787]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "cf3585d0-2854-11ef-aabe-ff356814ef23"
+:noFill false
+:isLocked false
+:point [1656 96]
+:parentId "66671b1b-4b37-466d-8a06-ecfdfff96f24"
+:collapsedHeight 0
+:nonce 1718153019513}}
+:block/updated-at 1718223401879} 
+{:block/content "Combat"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "66671b1b-4b37-466d-8a06-ecfdfff96f24"}
+:block/parent 
+{:block/uuid #uuid "66671b1b-4b37-466d-8a06-ecfdfff96f24"}
+:block/properties 
+{}
+:block/uuid #uuid "66671cbb-2fee-41c3-9975-6f03918b284b"} 
+{:block/created-at 1718223377545
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 3
+:scale [1 1]
+:pageId "6669f3ae-28a0-46d5-968f-4e8d6a9983f6"
+:scaleLevel "xxl"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [1200 122.99999714171535]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "07e05860-28f0-11ef-8654-1f24748c7f34"
+:noFill false
+:point [856 -40]
+:parentId "66671b1b-4b37-466d-8a06-ecfdfff96f24"
+:collapsedHeight 0
+:nonce 1718219686206}}
+:block/updated-at 1718223377545} 
+{:block/content "Safehouses"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "66671b1b-4b37-466d-8a06-ecfdfff96f24"}
+:block/parent 
+{:block/uuid #uuid "66671b1b-4b37-466d-8a06-ecfdfff96f24"}
+:block/uuid #uuid "66671cf8-307a-4a12-b9c8-92b10fbe6949"} 
+{:block/created-at 1718223401884
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 4
+:scale [1 1]
+:pageId "SavesAndDeath"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 345.99998440599154]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "a9c8fc60-28f3-11ef-8654-1f24748c7f34"
+:noFill false
+:point [856 96]
+:parentId "66671b1b-4b37-466d-8a06-ecfdfff96f24"
+:collapsedHeight 0
+:nonce 1718221246709}}
+:block/updated-at 1718223401884} 
+{:block/created-at 1718223447174
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 5
+:scale [1 1]
+:pageId "Economy"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 346.0000419464477]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "98b08380-28f8-11ef-8654-1f24748c7f34"
+:noFill false
+:point [1256 96]
+:parentId "66671b1b-4b37-466d-8a06-ecfdfff96f24"
+:collapsedHeight 0
+:nonce 1718223365371}}
+:block/updated-at 1718223447174})
 :pages (
 {:block/uuid #uuid "66671b1b-4b37-466d-8a06-ecfdfff96f24"
 :block/properties 
@@ -108,8 +203,8 @@
 {}
 :nonce 1
 :assets []
-:shapes-index ("3a2968f0-273f-11ef-bddc-83c59722f0ad" "4685a000-273f-11ef-bddc-83c59722f0ad")}}
-:block/updated-at 1718034892984
+:shapes-index ("cf3585d0-2854-11ef-aabe-ff356814ef23" "b968ea90-28e4-11ef-9588-01171a2be0f2" "6cb7e2e0-28ef-11ef-8654-1f24748c7f34" "07e05860-28f0-11ef-8654-1f24748c7f34" "a9c8fc60-28f3-11ef-8654-1f24748c7f34" "98b08380-28f8-11ef-8654-1f24748c7f34")}}
+:block/updated-at 1718223447174
 :block/created-at 1718033179827
 :block/type "whiteboard"
 :block/name "systems"

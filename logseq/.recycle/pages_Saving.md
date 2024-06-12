@@ -1,0 +1,7 @@
+- #SafeHouse system
+	- Possible saving options
+		- Only save at #SafeHouse
+		- SH & save every few minutes
+		- #EstusSaving
+			- Going to #SafeHouse refills consumable that allows player to save
+	- No saving while trespassing or in combat

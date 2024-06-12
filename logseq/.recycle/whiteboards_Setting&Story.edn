@@ -1,0 +1,83 @@
+{:blocks (
+{:block/created-at 1718216700035
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 0
+:scale [1 1]
+:pageId "Social"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 346]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "c8b0c880-28e7-11ef-8654-1f24748c7f34"
+:noFill false
+:point [1488 416]
+:parentId "6669e5c4-98b7-49bf-bea1-ac5daf55a57b"
+:collapsedHeight 0
+:nonce 1718216144346}}
+:block/updated-at 1718216700035} 
+{:block/created-at 1718216700036
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 1
+:scale [1 1]
+:pageId "Setting"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 195]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "04fa7020-28e8-11ef-8654-1f24748c7f34"
+:noFill false
+:point [1088 416]
+:parentId "6669e5c4-98b7-49bf-bea1-ac5daf55a57b"
+:collapsedHeight 0
+:nonce 1718216245431}}
+:block/updated-at 1718216700036} 
+{:block/content ""
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6669e5c4-98b7-49bf-bea1-ac5daf55a57b"}
+:block/parent 
+{:block/uuid #uuid "6669e5c4-98b7-49bf-bea1-ac5daf55a57b"}
+:block/properties 
+{}
+:block/uuid #uuid "6669eec7-9de9-4505-a87f-c8bd0cb08a90"})
+:pages (
+{:block/uuid #uuid "6669e5c4-98b7-49bf-bea1-ac5daf55a57b"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "6669e5c4-98b7-49bf-bea1-ac5daf55a57b"
+:name "setting&story"
+:bindings 
+{}
+:nonce 1
+:assets []
+:shapes-index ("c8b0c880-28e7-11ef-8654-1f24748c7f34" "04fa7020-28e8-11ef-8654-1f24748c7f34")}}
+:block/journal? false
+:block/updated-at 1718216700035
+:block/created-at 1718216132778
+:block/format :markdown
+:block/type "whiteboard"
+:block/name "setting&story"
+:block/original-name "Setting&Story"})}

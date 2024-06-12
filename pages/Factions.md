@@ -1,0 +1,7 @@
+- Factions are organizations as a whole, they include:
+	- Headquarters
+	- Hierarchy
+		- Head of faction
+			- Advisors
+				- #Handlers
+					- Mercs

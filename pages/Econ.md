@@ -1,4 +1,0 @@
-- Shops
-	- Medical
-	- Weapons
-	-

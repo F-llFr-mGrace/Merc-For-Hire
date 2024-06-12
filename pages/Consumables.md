@@ -1,0 +1,4 @@
+- Any items that are lost or degraded when used
+	- #Medical
+	- Ammunition
+		- Any consumable item that is used to "fire" #Weapons

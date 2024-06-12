@@ -1,0 +1,62 @@
+{:blocks (
+{:block/content ""
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "66671a87-7238-445b-b8ee-71d455e274a6"}
+:block/parent 
+{:block/uuid #uuid "66671a87-7238-445b-b8ee-71d455e274a6"}
+:block/uuid #uuid "66671abf-69e4-416f-a262-b01f5a1e9764"} 
+{:block/content "MercForHire"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "66671abf-69e4-416f-a262-b01f5a1e9764"}
+:block/parent 
+{:block/uuid #uuid "66671a87-7238-445b-b8ee-71d455e274a6"}
+:block/properties 
+{}
+:block/uuid #uuid "66671ac5-0cdb-48d4-bc27-3bb009c3f804"} 
+{:block/created-at 1718219620723
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 0
+:scale [1 1]
+:pageId "Systems"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [384 334.00005078358487]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "bf3821f0-273d-11ef-bddc-83c59722f0ad"
+:noFill false
+:point [672 448]
+:parentId "66671a87-7238-445b-b8ee-71d455e274a6"
+:collapsedHeight 64
+:nonce 1718033163535}}
+:block/updated-at 1718219620723})
+:pages (
+{:block/uuid #uuid "66671a87-7238-445b-b8ee-71d455e274a6"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "66671a87-7238-445b-b8ee-71d455e274a6"
+:name "designdoc"
+:bindings 
+{}
+:nonce 1
+:assets []
+:shapes-index ("bf3821f0-273d-11ef-bddc-83c59722f0ad")}}
+:block/updated-at 1718219620723
+:block/created-at 1718033031372
+:block/type "whiteboard"
+:block/name "designdoc"
+:block/original-name "DesignDoc"})}

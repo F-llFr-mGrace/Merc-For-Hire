@@ -1,0 +1,12 @@
+- Reputation
+	- All rep starts neutral
+	- Certain #Factions will react differently based on the actions you take during #Gigs
+- #GeneralPublic Rep
+	- Acknowledgment from the general public
+		- Only high-profile gigs effect General Rep
+		- If you stay anonymous your actions will be noted but not attributed to you
+- #Handlers Rep
+  id:: 6669d011-1ca5-4ac3-805c-2a83b233a6f0
+	-
+- Inter - #Handlers Rep
+	-

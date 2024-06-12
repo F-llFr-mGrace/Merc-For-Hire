@@ -1,4 +1,3 @@
-- Guns
-- Melee
+- #Weapons
 - Hacking
 - Environmental
