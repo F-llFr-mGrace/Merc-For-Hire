@@ -5,8 +5,8 @@
 	- Acknowledgment from the general public
 		- Only high-profile gigs effect General Rep
 		- If you stay anonymous your actions will be noted but not attributed to you
-- #Handlers Rep
+- #Factions Rep
   id:: 6669d011-1ca5-4ac3-805c-2a83b233a6f0
-	-
-- Inter - #Handlers Rep
+	- Reputation with a handler
+- Inter - #Factions Rep
 	-

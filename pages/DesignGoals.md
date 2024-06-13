@@ -6,4 +6,4 @@
 		- #Weapons do realistic damage
 	- Ramping difficulty as player gains #Reputation
 	- #SavesAndDeath system that encourages the player to play through situations that are not in their favor
-	-
+	- Different levels of #Vendors that offer items of varying quality

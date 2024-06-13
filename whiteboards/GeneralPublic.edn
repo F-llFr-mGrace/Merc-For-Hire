@@ -1,0 +1,74 @@
+{:blocks (
+{:block/created-at 1718242423520
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 0
+:scale [1 1]
+:pageId "PublicKnowledge"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 223.9999781760433]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "f66461f0-2924-11ef-8654-1f24748c7f34"
+:noFill false
+:isLocked false
+:point [640 416]
+:parentId "666a4c62-c889-4b6b-bae4-4be8fa0345fb"
+:collapsedHeight 0
+:nonce 1718218085869}}
+:block/updated-at 1718242423520} 
+{:block/created-at 1718242423526
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 1
+:scale [1 1]
+:pageId "PublicBody"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 223.9999781760433]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "f66461f1-2924-11ef-8654-1f24748c7f34"
+:noFill false
+:isLocked false
+:point [1056 416]
+:parentId "666a4c62-c889-4b6b-bae4-4be8fa0345fb"
+:collapsedHeight 0
+:nonce 1718218094409}}
+:block/updated-at 1718242423526})
+:pages (
+{:block/uuid #uuid "666a4c62-c889-4b6b-bae4-4be8fa0345fb"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "666a4c62-c889-4b6b-bae4-4be8fa0345fb"
+:name "GeneralPublic"
+:ls-type :whiteboard-page
+:bindings 
+{}
+:nonce 1
+:assets []}}
+:block/updated-at 1718242402184
+:block/created-at 1718242402184
+:block/type "whiteboard"
+:block/name "generalpublic"
+:block/original-name "GeneralPublic"})}

@@ -1,5 +1,5 @@
 {:blocks (
-{:block/created-at 1718223401884
+{:block/created-at 1718241241443
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -7,7 +7,7 @@
 :stroke ""
 :collapsed false
 :borderRadius 8
-:index 1
+:index 0
 :scale [1 1]
 :pageId "Social"
 :scaleLevel "md"
@@ -21,11 +21,11 @@
 :opacity 1
 :id "b968ea90-28e4-11ef-9588-01171a2be0f2"
 :noFill false
-:point [2056 96]
+:point [1888 128]
 :parentId "66671b1b-4b37-466d-8a06-ecfdfff96f24"
 :collapsedHeight 0
-:nonce 1718214830460}}
-:block/updated-at 1718223401884} 
+:nonce 1718214831074}}
+:block/updated-at 1718241241443} 
 {:block/content "MercForHire"
 :block/format :markdown
 :block/left 
@@ -33,7 +33,7 @@
 :block/parent 
 {:block/uuid #uuid "66671b1b-4b37-466d-8a06-ecfdfff96f24"}
 :block/uuid #uuid "6669f3ae-28a0-46d5-968f-4e8d6a9983f6"} 
-{:block/created-at 1718223401884
+{:block/created-at 1718241528166
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -41,7 +41,7 @@
 :stroke ""
 :collapsed false
 :borderRadius 8
-:index 2
+:index 1
 :scale [1 1]
 :pageId "DesignGoals"
 :scaleLevel "md"
@@ -49,17 +49,17 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [400 359.00000341792133]
+:size [400 488.99999039867896]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
 :id "6cb7e2e0-28ef-11ef-8654-1f24748c7f34"
 :noFill false
-:point [456 96]
+:point [640 128]
 :parentId "66671b1b-4b37-466d-8a06-ecfdfff96f24"
 :collapsedHeight 0
-:nonce 1718219426610}}
-:block/updated-at 1718223401884} 
+:nonce 1718219427354}}
+:block/updated-at 1718241528166} 
 {:block/content "Saving"
 :block/format :markdown
 :block/left 
@@ -67,86 +67,15 @@
 :block/parent 
 {:block/uuid #uuid "66671b1b-4b37-466d-8a06-ecfdfff96f24"}
 :block/uuid #uuid "66671ccc-3c8a-4658-ad0a-414f0fd13cc6"} 
-{:block/created-at 1718223401879
+{:block/created-at 1718241232945
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:blockType "P"
-:stroke ""
-:collapsed false
-:borderRadius 8
-:index 0
-:scale [1 1]
-:pageId "Reputation"
-:scaleLevel "md"
-:fill ""
-:compact false
-:isAutoResizing true
-:type "logseq-portal"
-:size [400 547.0000505548787]
-:strokeType "line"
-:strokeWidth 2
-:opacity 1
-:id "cf3585d0-2854-11ef-aabe-ff356814ef23"
-:noFill false
-:isLocked false
-:point [1656 96]
-:parentId "66671b1b-4b37-466d-8a06-ecfdfff96f24"
-:collapsedHeight 0
-:nonce 1718153019513}}
-:block/updated-at 1718223401879} 
-{:block/content "Combat"
-:block/format :markdown
-:block/left 
-{:block/uuid #uuid "66671b1b-4b37-466d-8a06-ecfdfff96f24"}
-:block/parent 
-{:block/uuid #uuid "66671b1b-4b37-466d-8a06-ecfdfff96f24"}
-:block/properties 
-{}
-:block/uuid #uuid "66671cbb-2fee-41c3-9975-6f03918b284b"} 
-{:block/created-at 1718223377545
-:block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:blockType "B"
 :stroke ""
 :collapsed false
 :borderRadius 8
 :index 3
-:scale [1 1]
-:pageId "6669f3ae-28a0-46d5-968f-4e8d6a9983f6"
-:scaleLevel "xxl"
-:fill ""
-:compact true
-:isAutoResizing true
-:type "logseq-portal"
-:size [1200 122.99999714171535]
-:strokeType "line"
-:strokeWidth 2
-:opacity 1
-:id "07e05860-28f0-11ef-8654-1f24748c7f34"
-:noFill false
-:point [856 -40]
-:parentId "66671b1b-4b37-466d-8a06-ecfdfff96f24"
-:collapsedHeight 0
-:nonce 1718219686206}}
-:block/updated-at 1718223377545} 
-{:block/content "Safehouses"
-:block/format :markdown
-:block/left 
-{:block/uuid #uuid "66671b1b-4b37-466d-8a06-ecfdfff96f24"}
-:block/parent 
-{:block/uuid #uuid "66671b1b-4b37-466d-8a06-ecfdfff96f24"}
-:block/uuid #uuid "66671cf8-307a-4a12-b9c8-92b10fbe6949"} 
-{:block/created-at 1718223401884
-:block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:blockType "P"
-:stroke ""
-:collapsed false
-:borderRadius 8
-:index 4
 :scale [1 1]
 :pageId "SavesAndDeath"
 :scaleLevel "md"
@@ -160,12 +89,55 @@
 :opacity 1
 :id "a9c8fc60-28f3-11ef-8654-1f24748c7f34"
 :noFill false
-:point [856 96]
+:point [1056 128]
 :parentId "66671b1b-4b37-466d-8a06-ecfdfff96f24"
 :collapsedHeight 0
-:nonce 1718221246709}}
-:block/updated-at 1718223401884} 
-{:block/created-at 1718223447174
+:nonce 1718221247117}}
+:block/updated-at 1718241232945} 
+{:block/content "Combat"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "66671b1b-4b37-466d-8a06-ecfdfff96f24"}
+:block/parent 
+{:block/uuid #uuid "66671b1b-4b37-466d-8a06-ecfdfff96f24"}
+:block/properties 
+{}
+:block/uuid #uuid "66671cbb-2fee-41c3-9975-6f03918b284b"} 
+{:block/created-at 1718243213230
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 2
+:scale [1 1]
+:pageId "6669f3ae-28a0-46d5-968f-4e8d6a9983f6"
+:scaleLevel "xxl"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [1200 122.99999714171535]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "07e05860-28f0-11ef-8654-1f24748c7f34"
+:noFill false
+:point [640 -32]
+:parentId "66671b1b-4b37-466d-8a06-ecfdfff96f24"
+:collapsedHeight 0
+:nonce 1718219686496}}
+:block/updated-at 1718243213230} 
+{:block/content "Safehouses"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "66671b1b-4b37-466d-8a06-ecfdfff96f24"}
+:block/parent 
+{:block/uuid #uuid "66671b1b-4b37-466d-8a06-ecfdfff96f24"}
+:block/uuid #uuid "66671cf8-307a-4a12-b9c8-92b10fbe6949"} 
+{:block/created-at 1718241676096
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -173,7 +145,7 @@
 :stroke ""
 :collapsed false
 :borderRadius 8
-:index 5
+:index 4
 :scale [1 1]
 :pageId "Economy"
 :scaleLevel "md"
@@ -181,17 +153,17 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [400 346.0000419464477]
+:size [400 346.00000087093474]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
 :id "98b08380-28f8-11ef-8654-1f24748c7f34"
 :noFill false
-:point [1256 96]
+:point [1472 128]
 :parentId "66671b1b-4b37-466d-8a06-ecfdfff96f24"
 :collapsedHeight 0
-:nonce 1718223365371}}
-:block/updated-at 1718223447174})
+:nonce 1718223365915}}
+:block/updated-at 1718241676096})
 :pages (
 {:block/uuid #uuid "66671b1b-4b37-466d-8a06-ecfdfff96f24"
 :block/properties 
@@ -203,8 +175,8 @@
 {}
 :nonce 1
 :assets []
-:shapes-index ("cf3585d0-2854-11ef-aabe-ff356814ef23" "b968ea90-28e4-11ef-9588-01171a2be0f2" "6cb7e2e0-28ef-11ef-8654-1f24748c7f34" "07e05860-28f0-11ef-8654-1f24748c7f34" "a9c8fc60-28f3-11ef-8654-1f24748c7f34" "98b08380-28f8-11ef-8654-1f24748c7f34")}}
-:block/updated-at 1718223447174
+:shapes-index ("b968ea90-28e4-11ef-9588-01171a2be0f2" "6cb7e2e0-28ef-11ef-8654-1f24748c7f34" "07e05860-28f0-11ef-8654-1f24748c7f34" "a9c8fc60-28f3-11ef-8654-1f24748c7f34" "98b08380-28f8-11ef-8654-1f24748c7f34")}}
+:block/updated-at 1718243213230
 :block/created-at 1718033179827
 :block/type "whiteboard"
 :block/name "systems"

@@ -1,0 +1,74 @@
+{:blocks (
+{:block/created-at 1718243142583
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 0
+:scale [1 1]
+:pageId "Handlers"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 243.0000248597334]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "9f4db220-2926-11ef-8654-1f24748c7f34"
+:noFill false
+:isLocked false
+:point [928 256]
+:parentId "666a4f34-5346-470e-b2d6-e2c85c8e0e75"
+:collapsedHeight 170.99999782348146
+:nonce 1718215143771}}
+:block/updated-at 1718243142583} 
+{:block/created-at 1718243142590
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 1
+:scale [1 1]
+:pageId "Factions"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 311.0000093476061]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "9f4db221-2926-11ef-8654-1f24748c7f34"
+:noFill false
+:isLocked false
+:point [512 256]
+:parentId "666a4f34-5346-470e-b2d6-e2c85c8e0e75"
+:collapsedHeight 0
+:nonce 1718218453697}}
+:block/updated-at 1718243142590})
+:pages (
+{:block/uuid #uuid "666a4f34-5346-470e-b2d6-e2c85c8e0e75"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "666a4f34-5346-470e-b2d6-e2c85c8e0e75"
+:name "Factions&Handlers"
+:ls-type :whiteboard-page
+:bindings 
+{}
+:nonce 1
+:assets []}}
+:block/updated-at 1718243124935
+:block/created-at 1718243124935
+:block/type "whiteboard"
+:block/name "factions&handlers"
+:block/original-name "Factions&Handlers"})}

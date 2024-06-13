@@ -1,0 +1,74 @@
+{:blocks (
+{:block/created-at 1718243601493
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 0
+:scale [1 1]
+:pageId "Gigs"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 113.00004163780756]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "b2d7df90-2927-11ef-8654-1f24748c7f34"
+:noFill false
+:isLocked false
+:point [736 448]
+:parentId "666a50ff-ddbb-4ea6-98b0-082f62529b26"
+:collapsedHeight 0
+:nonce 1718216811767}}
+:block/updated-at 1718243601493} 
+{:block/created-at 1718243601498
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 1
+:scale [1 1]
+:pageId "Events"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 242.99999823794337]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "b2d7df91-2927-11ef-8654-1f24748c7f34"
+:noFill false
+:isLocked false
+:point [320 448]
+:parentId "666a50ff-ddbb-4ea6-98b0-082f62529b26"
+:collapsedHeight 0
+:nonce 1718218342725}}
+:block/updated-at 1718243601498})
+:pages (
+{:block/uuid #uuid "666a50ff-ddbb-4ea6-98b0-082f62529b26"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "666a50ff-ddbb-4ea6-98b0-082f62529b26"
+:name "Gigs&Events"
+:ls-type :whiteboard-page
+:bindings 
+{}
+:nonce 1
+:assets []}}
+:block/updated-at 1718243583294
+:block/created-at 1718243583294
+:block/type "whiteboard"
+:block/name "gigs&events"
+:block/original-name "Gigs&Events"})}
