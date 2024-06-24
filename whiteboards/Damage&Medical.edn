@@ -1,0 +1,73 @@
+{:blocks (
+{:block/created-at 1718583475154
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 0
+:scale [1 1]
+:pageId "Medical"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 137]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "8cd134d0-2c3e-11ef-936c-3d2fe67854a4"
+:noFill false
+:isLocked false
+:point [512 384]
+:parentId "666f7fd8-5486-4cd3-9c8e-a1dff30d4ce5"
+:collapsedHeight 0
+:nonce 1718223713293}}
+:block/updated-at 1718583475154} 
+{:block/created-at 1718583475155
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 1
+:scale [1 1]
+:pageId "DamageRegions"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 374]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "8f737e00-2c3e-11ef-936c-3d2fe67854a4"
+:noFill false
+:point [928 384]
+:parentId "666f7fd8-5486-4cd3-9c8e-a1dff30d4ce5"
+:collapsedHeight 0
+:nonce 1718583267931}}
+:block/updated-at 1718583475155})
+:pages (
+{:block/uuid #uuid "666f7fd8-5486-4cd3-9c8e-a1dff30d4ce5"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "666f7fd8-5486-4cd3-9c8e-a1dff30d4ce5"
+:name "Damage&Medical"
+:ls-type :whiteboard-page
+:bindings 
+{}
+:nonce 1
+:assets []}}
+:block/updated-at 1718583256795
+:block/created-at 1718583256795
+:block/type "whiteboard"
+:block/name "damage&medical"
+:block/original-name "Damage&Medical"})}

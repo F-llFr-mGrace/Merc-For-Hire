@@ -1,3 +1,4 @@
 - Corporate
-	- Corporations will hire mercs for low level #Gigs but will offer to hire them once a certain #GeneralPublic level is reached
+	- Corporations will hire mercs for low level #Gigs but will offer to hire them once a certain #Reputation level is reached
 - Organized Crime
+	-

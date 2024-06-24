@@ -5,3 +5,11 @@
 			- Advisors
 				- #Handlers
 					- Mercs
+- All factions
+	- Corporate
+		- Military-Industrial
+	- Organized crime
+		-
+	- Government
+		- Local
+		- National

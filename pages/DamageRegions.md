@@ -1,0 +1,10 @@
+- Head
+	- 2x damage
+	- Low hit chance
+- Torso
+	- Most armored
+	- %chance to crit
+- Arms
+	- Limited use of items and weapons
+- Legs
+	- Become immobile or reduced speed

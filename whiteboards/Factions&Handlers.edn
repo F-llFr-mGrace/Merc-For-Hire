@@ -1,5 +1,5 @@
 {:blocks (
-{:block/created-at 1718243142583
+{:block/created-at 1718593520419
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -15,7 +15,7 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [400 243.0000248597334]
+:size [400 272.00000019286097]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -25,9 +25,9 @@
 :point [928 256]
 :parentId "666a4f34-5346-470e-b2d6-e2c85c8e0e75"
 :collapsedHeight 170.99999782348146
-:nonce 1718215143771}}
-:block/updated-at 1718243142583} 
-{:block/created-at 1718243142590
+:nonce 1718215143777}}
+:block/updated-at 1718593520419} 
+{:block/created-at 1718593520421
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -53,21 +53,21 @@
 :point [512 256]
 :parentId "666a4f34-5346-470e-b2d6-e2c85c8e0e75"
 :collapsedHeight 0
-:nonce 1718218453697}}
-:block/updated-at 1718243142590})
+:nonce 1718218453698}}
+:block/updated-at 1718593520421})
 :pages (
 {:block/uuid #uuid "666a4f34-5346-470e-b2d6-e2c85c8e0e75"
 :block/properties 
 {:ls-type :whiteboard-page
 :logseq.tldraw.page 
 {:id "666a4f34-5346-470e-b2d6-e2c85c8e0e75"
-:name "Factions&Handlers"
-:ls-type :whiteboard-page
+:name "factions&handlers"
 :bindings 
 {}
 :nonce 1
-:assets []}}
-:block/updated-at 1718243124935
+:assets []
+:shapes-index ("9f4db220-2926-11ef-8654-1f24748c7f34" "9f4db221-2926-11ef-8654-1f24748c7f34")}}
+:block/updated-at 1718593511926
 :block/created-at 1718243124935
 :block/type "whiteboard"
 :block/name "factions&handlers"

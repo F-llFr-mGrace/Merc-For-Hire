@@ -1,5 +1,5 @@
 - Shops
-	- Vendor types
+	- Vendor types #ItemQuality
 		- Outlet stores
 			- Cheap & Mainstream items
 		- Online stores

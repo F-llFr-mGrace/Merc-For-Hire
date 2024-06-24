@@ -1,0 +1,4 @@
+- Item categories
+	- Civilian
+	- Commercial/Corp
+	- Military
