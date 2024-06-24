@@ -11,27 +11,33 @@ albedo_color = Color(0, 0.635294, 1, 1)
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_gdcs2"]
 
-[node name="CharacterBody3D" type="CharacterBody3D"]
+[node name="Player" type="CharacterBody3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
 script = ExtResource("1_d5abh")
+sens = 1.0
 
-[node name="MeshInstance3D2" type="MeshInstance3D" parent="."]
+[node name="Body" type="MeshInstance3D" parent="."]
 mesh = SubResource("CapsuleMesh_5b811")
 surface_material_override/0 = SubResource("StandardMaterial3D_h8bgl")
 
-[node name="MeshInstance3D2" type="MeshInstance3D" parent="MeshInstance3D2"]
+[node name="Visor" type="MeshInstance3D" parent="Body"]
 transform = Transform3D(-1.67852e-08, 0.3, 0, -0.384, -1.31134e-08, 0, 0, 0, 0.2, 0, 0.5, -0.5)
 mesh = SubResource("CapsuleMesh_a4qa1")
 skeleton = NodePath("../..")
 
-[node name="MeshInstance3D3" type="MeshInstance3D" parent="MeshInstance3D2"]
+[node name="Backpack" type="MeshInstance3D" parent="Body"]
 transform = Transform3D(-5.37125e-08, 0.3, 0, -1.2288, -1.31134e-08, 0, 0, 0, 0.44, 0, 0, 0.5)
 mesh = SubResource("CapsuleMesh_a4qa1")
 skeleton = NodePath("../..")
 
-[node name="CollisionShape3D2" type="CollisionShape3D" parent="."]
+[node name="PlayerCollison" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1.33, 0, 0, 0.0588619)
 shape = SubResource("CapsuleShape3D_gdcs2")
 
-[node name="Camera3D2" type="Camera3D" parent="."]
-transform = Transform3D(1, -2.13163e-14, 0, 1.84604e-14, 0.866025, 0.5, -1.06581e-14, -0.5, 0.866025, 0, 2.49219, 2.94977)
+[node name="PlayerCams" type="Node3D" parent="."]
+
+[node name="Neck" type="Node3D" parent="PlayerCams"]
+
+[node name="Eyes" type="Camera3D" parent="PlayerCams/Neck"]
+transform = Transform3D(1, -2.13162e-14, -1.94817e-20, 2.13162e-14, 1, 2.38419e-07, 1.43996e-20, -2.38419e-07, 1, 0, 0.49219, -0.55023)
 current = true
