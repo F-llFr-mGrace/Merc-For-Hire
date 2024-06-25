@@ -1,0 +1,100 @@
+{:blocks (
+{:block/created-at 1719328643227
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 0
+:scale [1 1]
+:pageId "Vendors"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 485]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "04803670-3301-11ef-82dd-079bbf3d33ae"
+:noFill false
+:point [544 256]
+:parentId "667ad6ed-39bf-47cc-acad-4e1c739c8300"
+:collapsedHeight 0
+:nonce 1719326493683}}
+:block/updated-at 1719328643227} 
+{:block/created-at 1719327116061
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 1
+:scale [1 1]
+:pageId "FactionZones"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 165.99998390829057]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "f53faeb0-3301-11ef-82dd-079bbf3d33ae"
+:noFill false
+:point [960 256]
+:parentId "667ad6ed-39bf-47cc-acad-4e1c739c8300"
+:collapsedHeight 0
+:nonce 1719326897541}}
+:block/updated-at 1719328643229} 
+{:block/created-at 1719329424712
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 2
+:scale [1 1]
+:pageId "PlayerPowerLevel"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 455.0000397821681]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "03919e70-3306-11ef-82dd-079bbf3d33ae"
+:noFill false
+:point [128 256]
+:parentId "667ad6ed-39bf-47cc-acad-4e1c739c8300"
+:collapsedHeight 0
+:nonce 1719328639790}}
+:block/updated-at 1719329424712})
+:pages (
+{:block/uuid #uuid "667ad6ed-39bf-47cc-acad-4e1c739c8300"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "667ad6ed-39bf-47cc-acad-4e1c739c8300"
+:name "gameplayandgameworld"
+:bindings 
+{}
+:nonce 1
+:assets []
+:shapes-index ("04803670-3301-11ef-82dd-079bbf3d33ae" "f53faeb0-3301-11ef-82dd-079bbf3d33ae")}}
+:block/updated-at 1719327116908
+:block/created-at 1719326445721
+:block/type "whiteboard"
+:block/name "gameplayandgameworld"
+:block/original-name "GameplayAndGameworld"})}

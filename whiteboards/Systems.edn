@@ -33,7 +33,7 @@
 :block/parent 
 {:block/uuid #uuid "66671b1b-4b37-466d-8a06-ecfdfff96f24"}
 :block/uuid #uuid "6669f3ae-28a0-46d5-968f-4e8d6a9983f6"} 
-{:block/created-at 1718241528166
+{:block/created-at 1718583965696
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -49,7 +49,7 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [400 488.99999039867896]
+:size [400 488.9999488276228]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -58,8 +58,8 @@
 :point [640 128]
 :parentId "66671b1b-4b37-466d-8a06-ecfdfff96f24"
 :collapsedHeight 0
-:nonce 1718219427354}}
-:block/updated-at 1718241528166} 
+:nonce 1718219427358}}
+:block/updated-at 1718583965696} 
 {:block/content "Saving"
 :block/format :markdown
 :block/left 
@@ -163,7 +163,34 @@
 :parentId "66671b1b-4b37-466d-8a06-ecfdfff96f24"
 :collapsedHeight 0
 :nonce 1718223365915}}
-:block/updated-at 1718241676096})
+:block/updated-at 1718241676096} 
+{:block/created-at 1719326455464
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 5
+:scale [1 1]
+:pageId "GameplayAndGameworld"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 63.99997010727367]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "de117f80-3300-11ef-82dd-079bbf3d33ae"
+:noFill false
+:point [2304 128]
+:parentId "66671b1b-4b37-466d-8a06-ecfdfff96f24"
+:collapsedHeight 0
+:nonce 1719326429338}}
+:block/updated-at 1719326455464})
 :pages (
 {:block/uuid #uuid "66671b1b-4b37-466d-8a06-ecfdfff96f24"
 :block/properties 
@@ -175,8 +202,8 @@
 {}
 :nonce 1
 :assets []
-:shapes-index ("b968ea90-28e4-11ef-9588-01171a2be0f2" "6cb7e2e0-28ef-11ef-8654-1f24748c7f34" "07e05860-28f0-11ef-8654-1f24748c7f34" "a9c8fc60-28f3-11ef-8654-1f24748c7f34" "98b08380-28f8-11ef-8654-1f24748c7f34")}}
-:block/updated-at 1718243213230
+:shapes-index ("b968ea90-28e4-11ef-9588-01171a2be0f2" "6cb7e2e0-28ef-11ef-8654-1f24748c7f34" "07e05860-28f0-11ef-8654-1f24748c7f34" "a9c8fc60-28f3-11ef-8654-1f24748c7f34" "98b08380-28f8-11ef-8654-1f24748c7f34" "de117f80-3300-11ef-82dd-079bbf3d33ae")}}
+:block/updated-at 1719326455464
 :block/created-at 1718033179827
 :block/type "whiteboard"
 :block/name "systems"

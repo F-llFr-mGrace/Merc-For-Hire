@@ -1,9 +1,14 @@
 - Grounded cyberpunk esque world
 	- Open-ended #Gigs that offer #Reputation based on performance
+		- Ramping difficulty as player gains #Reputation
+			- Multiple different kinds of #Factions who can have #Reputation with each other
+			- Associating with a particular faction publicly can hurt your reputation with other factions #GeneralPublic
+			- #Gigs will become more dangerous as #PlayerPowerLevel increases
 	- Realistic and immersive experience
 		- Realistic #Medical and repair system
 			- #DamageRegions
 		- #Weapons do realistic damage
-	- Ramping difficulty as player gains #Reputation
 	- #SavesAndDeath system that encourages the player to play through situations that are not in their favor
+		- #EstusSaving
+		- Game does not stop at death
 	- Different levels of #Vendors that offer items of varying #ItemQuality

@@ -1,0 +1,2 @@
+- #Factions are based in and around certain areas of the map
+-

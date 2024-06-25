@@ -1,0 +1,7 @@
+- PPL is a set of values that tells the game how powerful the player is
+	- Real PPL
+	- #GeneralPublic PPL
+- When the player interacts with the world, the game will take into account the relevant data and suggest the next course of action. Some examples include
+	- #Vendors associated with #Factions will either give you a discount or refuse a sale
+- To determine the PPL, the game takes into account these values
+	-

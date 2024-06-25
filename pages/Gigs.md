@@ -1,1 +1,3 @@
 - Any job given to a character
+	- Bounties
+		-
