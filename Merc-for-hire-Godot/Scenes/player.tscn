@@ -36,8 +36,6 @@ shape = SubResource("CapsuleShape3D_gdcs2")
 
 [node name="PlayerCams" type="Node3D" parent="."]
 
-[node name="Neck" type="Node3D" parent="PlayerCams"]
-
-[node name="Eyes" type="Camera3D" parent="PlayerCams/Neck"]
-transform = Transform3D(1, -2.13162e-14, -1.94817e-20, 2.13162e-14, 1, 2.38419e-07, 1.43996e-20, -2.38419e-07, 1, 0, 0.49219, -0.55023)
+[node name="Eyes" type="Camera3D" parent="PlayerCams"]
+transform = Transform3D(1, -2.13162e-14, -1.94818e-20, 2.13162e-14, 1, 2.38419e-07, 1.43996e-20, -2.38419e-07, 1, 0, 0.49219, -0.456814)
 current = true
