@@ -8,6 +8,7 @@
 		- Realistic #Medical and repair system
 			- #DamageRegions
 		- #Weapons do realistic damage
+		- #Factions and #Handlers will act in their own interest and may betray you (in a way that can be telegraphed)
 	- #SavesAndDeath system that encourages the player to play through situations that are not in their favor
 		- #EstusSaving
 		- Game does not stop at death

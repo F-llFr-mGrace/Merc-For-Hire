@@ -1,6 +1,9 @@
 - PPL is a set of values that tells the game how powerful the player is
 	- Real PPL
-	- #GeneralPublic PPL
+		- Real PPL contains the up-to-date #Reputation values between the player and the different #Factions
+			- Only #Handlers and above will reference Real PPL
+	- #PublicKnowledge PPL
+		- The Public Knowledge PPL is the same system as Real PPL except it is only updated with information that has been disclosed or witnessed by the public body
 - When the player interacts with the world, the game will take into account the relevant data and suggest the next course of action. Some examples include
 	- #Vendors associated with #Factions will either give you a discount or refuse a sale
 - To determine the PPL, the game takes into account these values
