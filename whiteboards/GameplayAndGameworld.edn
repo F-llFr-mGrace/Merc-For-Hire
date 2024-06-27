@@ -26,7 +26,7 @@
 :collapsedHeight 0
 :nonce 1719326493683}}
 :block/updated-at 1719328643227} 
-{:block/created-at 1719327116061
+{:block/created-at 1719451853528
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -48,12 +48,12 @@
 :opacity 1
 :id "f53faeb0-3301-11ef-82dd-079bbf3d33ae"
 :noFill false
-:point [960 256]
+:point [1376 256]
 :parentId "667ad6ed-39bf-47cc-acad-4e1c739c8300"
 :collapsedHeight 0
-:nonce 1719326897541}}
-:block/updated-at 1719328643229} 
-{:block/created-at 1719447555545
+:nonce 1719326897755}}
+:block/updated-at 1719451853528} 
+{:block/created-at 1719452433454
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -80,7 +80,34 @@
 :parentId "667ad6ed-39bf-47cc-acad-4e1c739c8300"
 :collapsedHeight 0
 :nonce 1719328639808}}
-:block/updated-at 1719447555545})
+:block/updated-at 1719452433454} 
+{:block/created-at 1719452433458
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 3
+:scale [1 1]
+:pageId "NpcInteractions"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 353.99994746092955]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "1bb36270-3425-11ef-82dd-079bbf3d33ae"
+:noFill false
+:point [960 256]
+:parentId "667ad6ed-39bf-47cc-acad-4e1c739c8300"
+:collapsedHeight 0
+:nonce 1719451945617}}
+:block/updated-at 1719452433458})
 :pages (
 {:block/uuid #uuid "667ad6ed-39bf-47cc-acad-4e1c739c8300"
 :block/properties 
