@@ -8,8 +8,13 @@ func _ready():
 	pass
 
 func doshit(npcName, npcFactionStatus):
-	print(npcName, npcFactionStatus)
-	npcName.SayShit()
+	var myResponse
+	if npcFactionStatus[0] == 0:
+		myResponse = "I am a civilian"
+	
+	if npcFactionStatus[0] == 1:
+		myResponse = "I am a techCriminal"
+	npcName.SayShit(myResponse)
 
 func _process(delta):
 	allNpcs = get_tree().get_nodes_in_group("npcInteractable")

@@ -9,7 +9,7 @@
 [sub_resource type="CylinderShape3D" id="CylinderShape3D_ps1lf"]
 radius = 3.0
 
-[node name="RepV1" type="Node3D"]
+[node name="NPCV1" type="Node3D"]
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 mesh = SubResource("CapsuleMesh_ghxtu")

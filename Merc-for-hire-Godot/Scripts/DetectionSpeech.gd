@@ -22,6 +22,6 @@ func _on_body_entered(body):
 func _on_body_exited(body):
 	pass
 
-func SayShit():
-	print("What's up fucker!?")
+func SayShit(myResponse):
+	print(myResponse)
 
