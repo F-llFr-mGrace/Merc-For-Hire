@@ -15,12 +15,11 @@ func _ready():
 	faction.append(whatIsMyFaction)
 	faction.append(whatIsMyStatus)
 
-func _on_body_entered(body, incomingLabel):
+func viewed(viewer, incomingLabel):
 	playerLabel = incomingLabel
-	player = body.owner
+	player = viewer.owner
 	npcInteraction.emit(self, faction)
 	characterName.visible = true
-
 
 func _on_body_exited(body):
 	pass
@@ -28,4 +27,7 @@ func _on_body_exited(body):
 func SayShit(myResponse):
 	playerLabel.updateText(myResponse)
 	pass
+
+func makeNameInvis():
+	characterName.visible = false
 
