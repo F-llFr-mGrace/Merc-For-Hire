@@ -12,4 +12,4 @@ func _physics_process(delta):
 		var target = get_collider()
 		target._on_body_entered(self, interactables)
 	if is_colliding() == false:
-		interactables.defaultText()
+		interactables.clearText()

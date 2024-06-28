@@ -126,9 +126,6 @@ shape = SubResource("ConcavePolygonShape3D_npk6a")
 [node name="RepV1" parent="." instance=ExtResource("3_snwgf")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.3234, 0.999999, -9.45763)
 
-[node name="Area3D" parent="RepV1" index="2"]
-whatIsMyFaction = 1
-
 [node name="RepV2" parent="." instance=ExtResource("3_snwgf")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.3862, 1, -11.1378)
 

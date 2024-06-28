@@ -19,15 +19,15 @@ mesh = SubResource("CapsuleMesh_ghxtu")
 [node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
 shape = SubResource("CapsuleShape3D_cejyp")
 
-[node name="Area3D" type="Area3D" parent="." groups=["npcInteractable"]]
+[node name="DialogueDetection" type="Area3D" parent="." groups=["npcInteractable"]]
 collision_layer = 2
 collision_mask = 2
 script = ExtResource("1_ohc0w")
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D"]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="DialogueDetection"]
 shape = SubResource("CylinderShape3D_ps1lf")
 
-[node name="Label3D" type="Label3D" parent="."]
+[node name="CharacterName" type="Label3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.29667, 0)
 layers = 2
 pixel_size = 0.0012
@@ -40,6 +40,6 @@ text = "PenisCum"
 font_size = 128
 outline_size = 15
 
-[connection signal="body_entered" from="Area3D" to="Area3D" method="_on_body_entered"]
-[connection signal="body_exited" from="Area3D" to="Area3D" method="_on_body_exited"]
-[connection signal="npcInteraction" from="Area3D" to="Area3D" method="_on_npc_interaction"]
+[connection signal="body_entered" from="DialogueDetection" to="DialogueDetection" method="_on_body_entered"]
+[connection signal="body_exited" from="DialogueDetection" to="DialogueDetection" method="_on_body_exited"]
+[connection signal="npcInteraction" from="DialogueDetection" to="DialogueDetection" method="_on_npc_interaction"]

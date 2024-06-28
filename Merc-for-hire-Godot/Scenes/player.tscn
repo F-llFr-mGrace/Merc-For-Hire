@@ -32,7 +32,7 @@ transform = Transform3D(-5.37125e-08, 0.3, 0, -1.2288, -1.31134e-08, 0, 0, 0, 0.
 mesh = SubResource("CapsuleMesh_a4qa1")
 skeleton = NodePath("../..")
 
-[node name="PlayerCollison" type="CollisionShape3D" parent="."]
+[node name="PlayerBodyCollison" type="CollisionShape3D" parent="."]
 shape = SubResource("CapsuleShape3D_gdcs2")
 
 [node name="PlayerCams" type="Node3D" parent="."]
