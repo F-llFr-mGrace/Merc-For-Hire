@@ -5,6 +5,7 @@ extends RayCast3D
 
 func _ready():
 	add_exception(owner)
+	pass
 
 func _physics_process(delta):
 	if is_colliding():
