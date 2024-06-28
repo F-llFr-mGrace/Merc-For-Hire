@@ -1,7 +1,7 @@
 [gd_scene load_steps=17 format=3 uid="uid://xkisbfuekiar"]
 
 [ext_resource type="Texture2D" uid="uid://beulasi776thn" path="res://Textures/image.jpg" id="1_tcmbx"]
-[ext_resource type="Script" path="res://Scenes/GameMetadata.gd" id="1_u238t"]
+[ext_resource type="Script" path="res://Scripts/GameMetadata.gd" id="1_u238t"]
 [ext_resource type="PackedScene" uid="uid://d17n5ihbm7u8y" path="res://Scenes/player.tscn" id="2_rmg11"]
 [ext_resource type="PackedScene" uid="uid://d0oym4yaswh2o" path="res://Scenes/npcv1.tscn" id="3_snwgf"]
 
@@ -130,6 +130,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.3234, 0.999999, -9.45763)
 whatIsMyFaction = 1
 
 [node name="RepV2" parent="." instance=ExtResource("3_snwgf")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.4797, 1, -18.7396)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.3862, 1, -11.1378)
 
 [editable path="RepV1"]
