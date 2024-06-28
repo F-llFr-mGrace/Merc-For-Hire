@@ -29,6 +29,7 @@ shape = SubResource("CylinderShape3D_ps1lf")
 
 [node name="CharacterName" type="Label3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.29667, 0)
+visible = false
 layers = 2
 pixel_size = 0.0012
 billboard = 2

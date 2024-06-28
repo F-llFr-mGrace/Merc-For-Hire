@@ -1,9 +1,10 @@
-[gd_scene load_steps=17 format=3 uid="uid://xkisbfuekiar"]
+[gd_scene load_steps=16 format=3 uid="uid://xkisbfuekiar"]
 
 [ext_resource type="Texture2D" uid="uid://beulasi776thn" path="res://Textures/image.jpg" id="1_tcmbx"]
 [ext_resource type="Script" path="res://Scripts/GameMetadata.gd" id="1_u238t"]
 [ext_resource type="PackedScene" uid="uid://d17n5ihbm7u8y" path="res://Scenes/player.tscn" id="2_rmg11"]
 [ext_resource type="PackedScene" uid="uid://d0oym4yaswh2o" path="res://Scenes/npcv1.tscn" id="3_snwgf"]
+[ext_resource type="PackedScene" uid="uid://bpkddeew48apc" path="res://Scenes/CyberpunkSpace.glb" id="5_qbg3m"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_ci5bf"]
 sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
@@ -41,12 +42,6 @@ albedo_texture = ExtResource("1_tcmbx")
 [sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_tvehq"]
 data = PackedVector3Array(250, -125, 0, -250, -125, 0, 250, 125, 0, -250, -125, 0, -250, 125, 0, 250, 125, 0)
 
-[sub_resource type="BoxMesh" id="BoxMesh_cb57u"]
-size = Vector3(5, 10, 2)
-
-[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_t8owr"]
-data = PackedVector3Array(-2.5, 5, 1, 2.5, 5, 1, -2.5, -5, 1, 2.5, 5, 1, 2.5, -5, 1, -2.5, -5, 1, 2.5, 5, -1, -2.5, 5, -1, 2.5, -5, -1, -2.5, 5, -1, -2.5, -5, -1, 2.5, -5, -1, 2.5, 5, 1, 2.5, 5, -1, 2.5, -5, 1, 2.5, 5, -1, 2.5, -5, -1, 2.5, -5, 1, -2.5, 5, -1, -2.5, 5, 1, -2.5, -5, -1, -2.5, 5, 1, -2.5, -5, 1, -2.5, -5, -1, 2.5, 5, 1, -2.5, 5, 1, 2.5, 5, -1, -2.5, 5, 1, -2.5, 5, -1, 2.5, 5, -1, -2.5, -5, 1, 2.5, -5, 1, -2.5, -5, -1, 2.5, -5, 1, 2.5, -5, -1, -2.5, -5, -1)
-
 [sub_resource type="BoxMesh" id="BoxMesh_4r77n"]
 
 [sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_62gq5"]
@@ -65,13 +60,35 @@ environment = SubResource("Environment_hnr06")
 script = SubResource("GDScript_ru4nr")
 
 [node name="OmniLight3D" type="OmniLight3D" parent="Lights"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.313, 6.176, -5.584)
-light_energy = 10.0
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.27045, 4.97991, -9.83788)
+light_color = Color(1, 0.788235, 0.392157, 1)
+light_energy = 2.265
 shadow_enabled = true
-omni_range = 15.0
+omni_range = 70.0
+
+[node name="OmniLight3D2" type="OmniLight3D" parent="Lights"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.27045, 4.97991, -16.651)
+light_color = Color(1, 0.788235, 0.392157, 1)
+light_energy = 2.265
+shadow_enabled = true
+omni_range = 70.0
+
+[node name="OmniLight3D3" type="OmniLight3D" parent="Lights"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.27045, 4.97991, -23.6575)
+light_color = Color(1, 0.788235, 0.392157, 1)
+light_energy = 2.265
+shadow_enabled = true
+omni_range = 70.0
+
+[node name="OmniLight3D4" type="OmniLight3D" parent="Lights"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.27045, 4.97991, -30.6347)
+light_color = Color(1, 0.788235, 0.392157, 1)
+light_energy = 2.265
+shadow_enabled = true
+omni_range = 70.0
 
 [node name="Player" parent="." instance=ExtResource("2_rmg11")]
-transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 1, -12.3376)
+transform = Transform3D(-0.965926, 0, 0.258819, 0, 1, 0, -0.258819, 0, -0.965926, -0.217703, 1, -13.3237)
 
 [node name="Meshes" type="Node3D" parent="."]
 
@@ -85,16 +102,6 @@ surface_material_override/0 = SubResource("StandardMaterial3D_ua2yx")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Meshes/Floor/StaticBody3D"]
 shape = SubResource("ConcavePolygonShape3D_tvehq")
-
-[node name="Car" type="MeshInstance3D" parent="Meshes"]
-transform = Transform3D(0.621977, 0, 0, 0, -3.93838e-08, 1, 0, -0.900997, -4.37114e-08, -6.80496, 1.01028, 4.64001)
-mesh = SubResource("BoxMesh_cb57u")
-skeleton = NodePath("../..")
-
-[node name="StaticBody3D" type="StaticBody3D" parent="Meshes/Car"]
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Meshes/Car/StaticBody3D"]
-shape = SubResource("ConcavePolygonShape3D_t8owr")
 
 [node name="Building 1" type="MeshInstance3D" parent="Meshes"]
 transform = Transform3D(80.5811, 0, 0, 0, 32.3078, 0, 0, 0, 152.769, 68.7368, 15.5417, 0.387562)
@@ -123,10 +130,13 @@ mesh = SubResource("BoxMesh_4r77n")
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Meshes/Building 3/StaticBody3D"]
 shape = SubResource("ConcavePolygonShape3D_npk6a")
 
+[node name="CyberpunkSpace" parent="Meshes" instance=ExtResource("5_qbg3m")]
+transform = Transform3D(0.375, 0, 0, 0, 0.375, 0, 0, 0, 0.375, -1.48273, -1.76199e-06, -17.0068)
+
 [node name="RepV1" parent="." instance=ExtResource("3_snwgf")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.3234, 0.999999, -9.45763)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.54147, 0.999999, -4.93909)
 
 [node name="RepV2" parent="." instance=ExtResource("3_snwgf")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.3862, 1, -11.1378)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.60427, 1, -6.61926)
 
 [editable path="RepV1"]

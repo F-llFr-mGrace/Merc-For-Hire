@@ -3,6 +3,8 @@ extends Area3D
 @export var whatIsMyFaction = 0
 @export var whatIsMyStatus = 0
 
+@onready var characterName = $"../CharacterName"
+
 var faction = []
 var player
 var playerLabel
@@ -17,6 +19,7 @@ func _on_body_entered(body, incomingLabel):
 	playerLabel = incomingLabel
 	player = body.owner
 	npcInteraction.emit(self, faction)
+	characterName.visible = true
 
 
 func _on_body_exited(body):
