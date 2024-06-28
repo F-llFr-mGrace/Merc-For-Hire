@@ -1,7 +1,7 @@
 [gd_scene load_steps=8 format=3 uid="uid://d17n5ihbm7u8y"]
 
 [ext_resource type="Script" path="res://Scripts/characterController.gd" id="1_d5abh"]
-[ext_resource type="Script" path="res://Scripts/raycastDialogue.gd" id="2_3728l"]
+[ext_resource type="Script" path="res://Scripts/playerIsInteracting.gd" id="2_r81a5"]
 [ext_resource type="Script" path="res://Scripts/changeLabel.gd" id="3_atj60"]
 
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_5b811"]
@@ -48,7 +48,7 @@ target_position = Vector3(0, 0, -3)
 collision_mask = 2
 collide_with_areas = true
 collide_with_bodies = false
-script = ExtResource("2_3728l")
+script = ExtResource("2_r81a5")
 
 [node name="Interactables" type="Label" parent="."]
 anchors_preset = 8
