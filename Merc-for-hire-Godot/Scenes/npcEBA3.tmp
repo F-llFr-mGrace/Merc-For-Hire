@@ -1,0 +1,48 @@
+[gd_scene load_steps=6 format=3 uid="uid://d0oym4yaswh2o"]
+
+[ext_resource type="Script" path="res://Scripts/npcData.gd" id="1_ohc0w"]
+[ext_resource type="Script" path="res://Scripts/npcInteraction.gd" id="2_v774w"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_ghxtu"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_cejyp"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_onktu"]
+radius = 0.6
+
+[node name="NPCV1" type="Node3D"]
+script = ExtResource("1_ohc0w")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("CapsuleMesh_ghxtu")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("CapsuleShape3D_cejyp")
+
+[node name="DialogueDetection" type="Area3D" parent="." groups=["npcInteractable"]]
+collision_layer = 2
+collision_mask = 2
+script = ExtResource("2_v774w")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="DialogueDetection"]
+shape = SubResource("CapsuleShape3D_onktu")
+
+[node name="CharacterName" type="Label3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.29667, 0)
+visible = false
+layers = 2
+pixel_size = 0.0012
+billboard = 2
+double_sided = false
+no_depth_test = true
+alpha_cut = 2
+outline_render_priority = -2
+text = "nameless"
+font_size = 128
+outline_size = 15
+
+[connection signal="body_entered" from="DialogueDetection" to="DialogueDetection" method="_on_body_entered"]
+[connection signal="body_exited" from="DialogueDetection" to="DialogueDetection" method="_on_body_exited"]
+[connection signal="npcInteraction" from="DialogueDetection" to="DialogueDetection" method="_on_npc_interaction"]

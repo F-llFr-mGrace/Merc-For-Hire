@@ -1,8 +1,5 @@
 extends Area3D
 
-var myFaction = 0
-var myWealth = 0
-
 @onready var characterName = $"../CharacterName"
 
 var faction = []
@@ -10,10 +7,6 @@ var player
 var playerLabel
 
 signal npcInteraction(npcName, npcFaction)
-
-func _ready():
-	faction.append(myFaction)
-	faction.append(myWealth)
 
 func viewed(viewer, incomingLabel):
 	playerLabel = incomingLabel
@@ -28,3 +21,6 @@ func SayShit(myResponse):
 func makeNameInvis():
 	characterName.visible = false
 
+func giveAttributes(myFaction, myWealth):
+	faction.append(myFaction)
+	faction.append(myWealth)

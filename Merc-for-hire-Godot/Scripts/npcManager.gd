@@ -11,12 +11,17 @@ var npcWealth = 0
 
 func _ready():
 	for spawn in civSpawns:
-		createNewNpcAt(spawn)
+		var giveFaction = 0
+		var giveWealth = 0
+		createNewNpcAt(spawn, giveFaction, giveWealth)
 
 	for spawn in gangSpawns:
-		createNewNpcAt(spawn)
+		var giveFaction = 1
+		var giveWealth = 0
+		createNewNpcAt(spawn, giveFaction, giveWealth)
 
-func createNewNpcAt(spawn):
+func createNewNpcAt(spawn, giveFaction, giveWealth):
 	var npc = npcV1.instantiate()
 	spawn.add_child(npc)
+	npc.giveOwnerAttributes(giveFaction, giveWealth)
 	npc.position.y += 1
