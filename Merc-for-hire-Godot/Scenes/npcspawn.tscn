@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://bancx5awqmghy"]
+
+[node name="npcSpawn" type="Node3D"]
+
+[node name="Label3D" type="Label3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3, 0)
+visibility_range_end = 20.0
+pixel_size = 0.01
+text = "\\/\\/\\/SPAWN\\/\\/\\/"
+
+[node name="Label3D2" type="Label3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 0, 0)
+visibility_range_end = 20.0
+pixel_size = 0.05
+modulate = Color(0, 0, 0, 1)
+outline_modulate = Color(1, 1, 1, 1)
+text = "X"

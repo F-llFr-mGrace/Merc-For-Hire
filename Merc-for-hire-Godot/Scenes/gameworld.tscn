@@ -1,10 +1,11 @@
-[gd_scene load_steps=16 format=3 uid="uid://xkisbfuekiar"]
+[gd_scene load_steps=17 format=3 uid="uid://xkisbfuekiar"]
 
 [ext_resource type="Texture2D" uid="uid://beulasi776thn" path="res://Textures/image.jpg" id="1_tcmbx"]
 [ext_resource type="Script" path="res://Scripts/GameMetadata.gd" id="1_u238t"]
 [ext_resource type="PackedScene" uid="uid://d17n5ihbm7u8y" path="res://Scenes/player.tscn" id="2_rmg11"]
-[ext_resource type="PackedScene" uid="uid://d0oym4yaswh2o" path="res://Scenes/npcv1.tscn" id="3_snwgf"]
 [ext_resource type="PackedScene" uid="uid://bpkddeew48apc" path="res://Scenes/CyberpunkSpace.glb" id="5_qbg3m"]
+[ext_resource type="Script" path="res://Scripts/npcManager.gd" id="5_yu5a6"]
+[ext_resource type="PackedScene" uid="uid://bancx5awqmghy" path="res://Scenes/npcspawn.tscn" id="6_0g11p"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_ci5bf"]
 sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
@@ -29,7 +30,7 @@ func _ready():
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
+func _process(_delta):
 	pass
 "
 
@@ -88,58 +89,63 @@ shadow_enabled = true
 omni_range = 70.0
 
 [node name="Player" parent="." instance=ExtResource("2_rmg11")]
-transform = Transform3D(-0.965926, 0, 0.258819, 0, 1, 0, -0.258819, 0, -0.965926, -0.217703, 1, -13.3237)
+transform = Transform3D(0.916062, 0, -0.401037, 0, 1, 0, 0.401037, 0, 0.916062, -1.63394, 1, -6.49165)
 
-[node name="Meshes" type="Node3D" parent="."]
+[node name="World Meshes" type="Node3D" parent="."]
 
-[node name="Floor" type="MeshInstance3D" parent="Meshes"]
+[node name="Floor" type="MeshInstance3D" parent="World Meshes"]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 0, 0)
 mesh = SubResource("QuadMesh_ovqmn")
 skeleton = NodePath("../..")
 surface_material_override/0 = SubResource("StandardMaterial3D_ua2yx")
 
-[node name="StaticBody3D" type="StaticBody3D" parent="Meshes/Floor"]
+[node name="StaticBody3D" type="StaticBody3D" parent="World Meshes/Floor"]
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Meshes/Floor/StaticBody3D"]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="World Meshes/Floor/StaticBody3D"]
 shape = SubResource("ConcavePolygonShape3D_tvehq")
 
-[node name="Building 1" type="MeshInstance3D" parent="Meshes"]
+[node name="Building 1" type="MeshInstance3D" parent="World Meshes"]
 transform = Transform3D(80.5811, 0, 0, 0, 32.3078, 0, 0, 0, 152.769, 68.7368, 15.5417, 0.387562)
 mesh = SubResource("BoxMesh_4r77n")
 
-[node name="StaticBody3D" type="StaticBody3D" parent="Meshes/Building 1"]
+[node name="StaticBody3D" type="StaticBody3D" parent="World Meshes/Building 1"]
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Meshes/Building 1/StaticBody3D"]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="World Meshes/Building 1/StaticBody3D"]
 shape = SubResource("ConcavePolygonShape3D_62gq5")
 
-[node name="Building 2" type="MeshInstance3D" parent="Meshes"]
+[node name="Building 2" type="MeshInstance3D" parent="World Meshes"]
 transform = Transform3D(109.522, 0, 0, 0, 32.3078, 0, 0, 0, 84.2411, -135.124, 15.5417, 33.2827)
 mesh = SubResource("BoxMesh_4r77n")
 
-[node name="StaticBody3D" type="StaticBody3D" parent="Meshes/Building 2"]
+[node name="StaticBody3D" type="StaticBody3D" parent="World Meshes/Building 2"]
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Meshes/Building 2/StaticBody3D"]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="World Meshes/Building 2/StaticBody3D"]
 shape = SubResource("ConcavePolygonShape3D_62gq5")
 
-[node name="Building 3" type="MeshInstance3D" parent="Meshes"]
+[node name="Building 3" type="MeshInstance3D" parent="World Meshes"]
 transform = Transform3D(80.5811, 0, 0, 0, 32.3078, 0, 0, 0, 152.769, 169.138, 15.5417, 0.387562)
 mesh = SubResource("BoxMesh_4r77n")
 
-[node name="StaticBody3D" type="StaticBody3D" parent="Meshes/Building 3"]
+[node name="StaticBody3D" type="StaticBody3D" parent="World Meshes/Building 3"]
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Meshes/Building 3/StaticBody3D"]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="World Meshes/Building 3/StaticBody3D"]
 shape = SubResource("ConcavePolygonShape3D_npk6a")
 
-[node name="CyberpunkSpace" parent="Meshes" instance=ExtResource("5_qbg3m")]
+[node name="CyberpunkSpace" parent="World Meshes" instance=ExtResource("5_qbg3m")]
 transform = Transform3D(0.375, 0, 0, 0, 0.375, 0, 0, 0, 0.375, -1.48273, -1.76199e-06, -17.0068)
 
-[node name="RepV1" parent="." instance=ExtResource("3_snwgf")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.54147, 0.999999, -4.93909)
+[node name="NPC Manager" type="Node3D" parent="."]
+script = ExtResource("5_yu5a6")
 
-[node name="DialogueDetection" parent="RepV1" index="2"]
-whatIsMyFaction = 1
+[node name="CivilianSpawnGroup" type="Node3D" parent="NPC Manager"]
 
-[node name="RepV2" parent="." instance=ExtResource("3_snwgf")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.60427, 1, -6.61926)
+[node name="npcSpawn2" parent="NPC Manager/CivilianSpawnGroup" instance=ExtResource("6_0g11p")]
+transform = Transform3D(0.624589, 0, -0.780954, 0, 1, 0, 0.780954, 0, 0.624589, 2.13419, 0.131737, -10.6186)
 
-[editable path="RepV1"]
+[node name="npcSpawn" parent="NPC Manager/CivilianSpawnGroup" instance=ExtResource("6_0g11p")]
+transform = Transform3D(0.610145, 0, -0.79229, 0, 1, 0, 0.79229, 0, 0.610145, 1.88881, 0.131736, -17.8914)
+
+[node name="GangSpawnGroup" type="Node3D" parent="NPC Manager"]
+
+[node name="npcSpawn3" parent="NPC Manager/GangSpawnGroup" instance=ExtResource("6_0g11p")]
+transform = Transform3D(-0.2013, 0, -0.97953, 0, 1, 0, 0.97953, 0, -0.2013, 2.09828, 0.131735, -31.3283)

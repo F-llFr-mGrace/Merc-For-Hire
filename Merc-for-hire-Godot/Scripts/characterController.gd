@@ -23,10 +23,9 @@ func _unhandled_input(event) -> void:
 		if event is InputEventMouseMotion:
 			player.rotate_y(-event.relative.x * sens)
 			eyes.rotate_x(-event.relative.y * sens)
-			eyes.rotation.x = clamp(eyes.rotation.x, deg_to_rad(-70), deg_to_rad(85))
+			eyes.rotation.x = clamp(eyes.rotation.x, deg_to_rad(-90), deg_to_rad(90))
 			eyes.rotation.z = 0
 			eyes.rotation.y = 0
-			eyes.transform.basis
 
 func _physics_process(delta):
 	# Add the gravity.
