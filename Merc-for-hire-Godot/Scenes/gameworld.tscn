@@ -1,24 +1,33 @@
-[gd_scene load_steps=17 format=3 uid="uid://xkisbfuekiar"]
+[gd_scene load_steps=11 format=3 uid="uid://xkisbfuekiar"]
 
-[ext_resource type="Texture2D" uid="uid://beulasi776thn" path="res://Textures/image.jpg" id="1_tcmbx"]
 [ext_resource type="Script" path="res://Scripts/GameMetadata.gd" id="1_u238t"]
 [ext_resource type="PackedScene" uid="uid://d17n5ihbm7u8y" path="res://Scenes/player.tscn" id="2_rmg11"]
-[ext_resource type="PackedScene" uid="uid://bpkddeew48apc" path="res://Scenes/CyberpunkSpace.glb" id="5_qbg3m"]
+[ext_resource type="PackedScene" uid="uid://b72ulhamjpt2u" path="res://Scenes/alley.tscn" id="3_0d4r6"]
+[ext_resource type="LightmapGIData" uid="uid://bjstrvn0krnwl" path="res://lightVoxelData/gameworld.lmbake" id="5_odrnd"]
 [ext_resource type="Script" path="res://Scripts/npcManager.gd" id="5_yu5a6"]
-[ext_resource type="PackedScene" uid="uid://bancx5awqmghy" path="res://Scenes/npcspawn.tscn" id="6_0g11p"]
 
-[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_ci5bf"]
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_0o237"]
 sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
 ground_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
 
-[sub_resource type="Sky" id="Sky_8pjm6"]
-sky_material = SubResource("ProceduralSkyMaterial_ci5bf")
+[sub_resource type="Sky" id="Sky_s304g"]
+sky_material = SubResource("ProceduralSkyMaterial_0o237")
 
-[sub_resource type="Environment" id="Environment_hnr06"]
+[sub_resource type="Environment" id="Environment_vwivs"]
 background_mode = 2
-sky = SubResource("Sky_8pjm6")
+sky = SubResource("Sky_s304g")
 tonemap_mode = 2
+ssr_enabled = true
+ssao_enabled = true
+ssil_radius = 10.0
+ssil_sharpness = 1.0
+sdfgi_min_cell_size = 0.976563
+sdfgi_cascade0_distance = 62.5
+sdfgi_max_distance = 1000.0
 glow_enabled = true
+glow_normalized = true
+fog_density = 0.0015
+volumetric_fog_density = 0.004
 
 [sub_resource type="GDScript" id="GDScript_ru4nr"]
 script/source = "extends Node
@@ -34,118 +43,52 @@ func _process(_delta):
 	pass
 "
 
-[sub_resource type="QuadMesh" id="QuadMesh_ovqmn"]
-size = Vector2(500, 250)
-
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ua2yx"]
-albedo_texture = ExtResource("1_tcmbx")
-
-[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_tvehq"]
-data = PackedVector3Array(250, -125, 0, -250, -125, 0, 250, 125, 0, -250, -125, 0, -250, 125, 0, 250, 125, 0)
-
-[sub_resource type="BoxMesh" id="BoxMesh_4r77n"]
-
-[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_62gq5"]
-data = PackedVector3Array(-0.5, 0.5, 0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, 0.5, 0.5, -0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, -0.5, 0.5, -0.5, -0.5, -0.5, 0.5, -0.5, -0.5, -0.5, -0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, 0.5, 0.5, -0.5, 0.5, -0.5, 0.5, 0.5, 0.5, -0.5, 0.5, -0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, -0.5, 0.5, 0.5, -0.5, -0.5, -0.5, -0.5, 0.5, 0.5, -0.5, -0.5, 0.5, -0.5, -0.5, -0.5, 0.5, 0.5, 0.5, -0.5, 0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, 0.5, -0.5, 0.5, -0.5, 0.5, 0.5, -0.5, -0.5, -0.5, 0.5, 0.5, -0.5, 0.5, -0.5, -0.5, -0.5, 0.5, -0.5, 0.5, 0.5, -0.5, -0.5, -0.5, -0.5, -0.5)
-
-[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_npk6a"]
-data = PackedVector3Array(-0.5, 0.5, 0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, 0.5, 0.5, -0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, -0.5, 0.5, -0.5, -0.5, -0.5, 0.5, -0.5, -0.5, -0.5, -0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, 0.5, 0.5, -0.5, 0.5, -0.5, 0.5, 0.5, 0.5, -0.5, 0.5, -0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, -0.5, 0.5, 0.5, -0.5, -0.5, -0.5, -0.5, 0.5, 0.5, -0.5, -0.5, 0.5, -0.5, -0.5, -0.5, 0.5, 0.5, 0.5, -0.5, 0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, 0.5, -0.5, 0.5, -0.5, 0.5, 0.5, -0.5, -0.5, -0.5, 0.5, 0.5, -0.5, 0.5, -0.5, -0.5, -0.5, 0.5, -0.5, 0.5, 0.5, -0.5, -0.5, -0.5, -0.5, -0.5)
+[sub_resource type="BoxMesh" id="BoxMesh_k3h5v"]
+lightmap_size_hint = Vector2i(14, 21)
+add_uv2 = true
 
 [node name="Game World" type="Node3D"]
 script = ExtResource("1_u238t")
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
-environment = SubResource("Environment_hnr06")
+environment = SubResource("Environment_vwivs")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.5, -0.150384, 0.852868, 0, 0.984808, 0.173648, -0.866025, 0.0868241, -0.492404, 0, 0, 0)
+shadow_enabled = true
+directional_shadow_max_distance = 1000.0
 
 [node name="Lights" type="Node3D" parent="."]
 script = SubResource("GDScript_ru4nr")
-
-[node name="OmniLight3D" type="OmniLight3D" parent="Lights"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.27045, 4.97991, -9.83788)
-light_color = Color(1, 0.788235, 0.392157, 1)
-light_energy = 2.265
-shadow_enabled = true
-omni_range = 70.0
-
-[node name="OmniLight3D2" type="OmniLight3D" parent="Lights"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.27045, 4.97991, -16.651)
-light_color = Color(1, 0.788235, 0.392157, 1)
-light_energy = 2.265
-shadow_enabled = true
-omni_range = 70.0
-
-[node name="OmniLight3D3" type="OmniLight3D" parent="Lights"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.27045, 4.97991, -23.6575)
-light_color = Color(1, 0.788235, 0.392157, 1)
-light_energy = 2.265
-shadow_enabled = true
-omni_range = 70.0
-
-[node name="OmniLight3D4" type="OmniLight3D" parent="Lights"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.27045, 4.97991, -30.6347)
-light_color = Color(1, 0.788235, 0.392157, 1)
-light_energy = 2.265
-shadow_enabled = true
-omni_range = 70.0
 
 [node name="Player" parent="." instance=ExtResource("2_rmg11")]
 transform = Transform3D(0.916062, 0, -0.401037, 0, 1, 0, 0.401037, 0, 0.916062, -1.63394, 1, -6.49165)
 
 [node name="World Meshes" type="Node3D" parent="."]
 
-[node name="Floor" type="MeshInstance3D" parent="World Meshes"]
-transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 0, 0)
-mesh = SubResource("QuadMesh_ovqmn")
-skeleton = NodePath("../..")
-surface_material_override/0 = SubResource("StandardMaterial3D_ua2yx")
+[node name="Alley" parent="World Meshes" instance=ExtResource("3_0d4r6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.87926, 4.76837e-07, -17.4159)
 
-[node name="StaticBody3D" type="StaticBody3D" parent="World Meshes/Floor"]
+[node name="MeshInstance3D" type="MeshInstance3D" parent="World Meshes"]
+transform = Transform3D(300, 0, 0, 0, 900, 0, 0, 0, 300, 0, 0, 197.475)
+mesh = SubResource("BoxMesh_k3h5v")
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="World Meshes/Floor/StaticBody3D"]
-shape = SubResource("ConcavePolygonShape3D_tvehq")
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="World Meshes"]
+transform = Transform3D(300, 0, 0, 0, 900, 0, 0, 0, 300, 0, 0, -222.732)
+mesh = SubResource("BoxMesh_k3h5v")
 
-[node name="Building 1" type="MeshInstance3D" parent="World Meshes"]
-transform = Transform3D(80.5811, 0, 0, 0, 32.3078, 0, 0, 0, 152.769, 68.7368, 15.5417, 0.387562)
-mesh = SubResource("BoxMesh_4r77n")
-
-[node name="StaticBody3D" type="StaticBody3D" parent="World Meshes/Building 1"]
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="World Meshes/Building 1/StaticBody3D"]
-shape = SubResource("ConcavePolygonShape3D_62gq5")
-
-[node name="Building 2" type="MeshInstance3D" parent="World Meshes"]
-transform = Transform3D(109.522, 0, 0, 0, 32.3078, 0, 0, 0, 84.2411, -135.124, 15.5417, 33.2827)
-mesh = SubResource("BoxMesh_4r77n")
-
-[node name="StaticBody3D" type="StaticBody3D" parent="World Meshes/Building 2"]
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="World Meshes/Building 2/StaticBody3D"]
-shape = SubResource("ConcavePolygonShape3D_62gq5")
-
-[node name="Building 3" type="MeshInstance3D" parent="World Meshes"]
-transform = Transform3D(80.5811, 0, 0, 0, 32.3078, 0, 0, 0, 152.769, 169.138, 15.5417, 0.387562)
-mesh = SubResource("BoxMesh_4r77n")
-
-[node name="StaticBody3D" type="StaticBody3D" parent="World Meshes/Building 3"]
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="World Meshes/Building 3/StaticBody3D"]
-shape = SubResource("ConcavePolygonShape3D_npk6a")
-
-[node name="CyberpunkSpace" parent="World Meshes" instance=ExtResource("5_qbg3m")]
-transform = Transform3D(0.375, 0, 0, 0, 0.375, 0, 0, 0, 0.375, -1.48273, -1.76199e-06, -17.0068)
+[node name="MeshInstance3D4" type="MeshInstance3D" parent="World Meshes"]
+transform = Transform3D(300, 0, 0, 0, 900, 0, 0, 0, 300, -362.074, 0, -8.48174)
+mesh = SubResource("BoxMesh_k3h5v")
 
 [node name="NPC Manager" type="Node3D" parent="."]
 script = ExtResource("5_yu5a6")
 
 [node name="CivilianSpawnGroup" type="Node3D" parent="NPC Manager"]
 
-[node name="npcSpawn2" parent="NPC Manager/CivilianSpawnGroup" instance=ExtResource("6_0g11p")]
-transform = Transform3D(0.624589, 0, -0.780954, 0, 1, 0, 0.780954, 0, 0.624589, 2.13419, 0.131737, -10.6186)
-
-[node name="npcSpawn" parent="NPC Manager/CivilianSpawnGroup" instance=ExtResource("6_0g11p")]
-transform = Transform3D(0.610145, 0, -0.79229, 0, 1, 0, 0.79229, 0, 0.610145, 1.88881, 0.131736, -17.8914)
-
 [node name="GangSpawnGroup" type="Node3D" parent="NPC Manager"]
 
-[node name="npcSpawn3" parent="NPC Manager/GangSpawnGroup" instance=ExtResource("6_0g11p")]
-transform = Transform3D(-0.2013, 0, -0.97953, 0, 1, 0, 0.97953, 0, -0.2013, 2.09828, 0.131735, -31.3283)
+[node name="LightmapGI" type="LightmapGI" parent="."]
+quality = 3
+generate_probes_subdiv = 4
+light_data = ExtResource("5_odrnd")
