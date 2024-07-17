@@ -2,8 +2,8 @@
 
 [ext_resource type="Script" path="res://Scripts/GameMetadata.gd" id="1_u238t"]
 [ext_resource type="PackedScene" uid="uid://d17n5ihbm7u8y" path="res://Scenes/player.tscn" id="2_rmg11"]
-[ext_resource type="PackedScene" uid="uid://b72ulhamjpt2u" path="res://Scenes/alley.tscn" id="3_0d4r6"]
-[ext_resource type="LightmapGIData" uid="uid://bjstrvn0krnwl" path="res://lightVoxelData/gameworld.lmbake" id="5_odrnd"]
+[ext_resource type="PackedScene" uid="uid://cyi17ftshwxf1" path="res://Scenes/cityBlock.tscn" id="4_nkl2y"]
+[ext_resource type="PackedScene" uid="uid://mc8mg3t7vdya" path="res://Scenes/largeGarbageBin.tscn" id="4_umrty"]
 [ext_resource type="Script" path="res://Scripts/npcManager.gd" id="5_yu5a6"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_0o237"]
@@ -21,9 +21,8 @@ ssr_enabled = true
 ssao_enabled = true
 ssil_radius = 16.0
 ssil_sharpness = 1.0
+sdfgi_enabled = true
 sdfgi_min_cell_size = 0.976563
-sdfgi_cascade0_distance = 62.5
-sdfgi_max_distance = 1000.0
 glow_enabled = true
 glow_normalized = true
 fog_density = 0.0015
@@ -46,12 +45,6 @@ func _process(_delta):
 [node name="Game World" type="Node3D"]
 script = ExtResource("1_u238t")
 
-[node name="LightmapGI" type="LightmapGI" parent="."]
-quality = 3
-bounces = 5
-generate_probes_subdiv = 4
-light_data = ExtResource("5_odrnd")
-
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_vwivs")
 
@@ -64,12 +57,14 @@ directional_shadow_max_distance = 1000.0
 script = SubResource("GDScript_ru4nr")
 
 [node name="Player" parent="." instance=ExtResource("2_rmg11")]
-transform = Transform3D(0.916062, 0, -0.401037, 0, 1, 0, 0.401037, 0, 0.916062, -1.63394, 1, -6.49165)
+transform = Transform3D(0.487266, 0, 0.873254, 0, 1, 0, -0.873254, 0, 0.487266, 12.8646, 1, -76.9616)
 
 [node name="World Meshes" type="Node3D" parent="."]
 
-[node name="Alley" parent="World Meshes" instance=ExtResource("3_0d4r6")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.87926, 4.76837e-07, -17.4159)
+[node name="CityBlock" parent="World Meshes" instance=ExtResource("4_nkl2y")]
+
+[node name="LargeGarbageBins" parent="World Meshes" instance=ExtResource("4_umrty")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.1814, 0, -82.7115)
 
 [node name="NPC Manager" type="Node3D" parent="."]
 script = ExtResource("5_yu5a6")
