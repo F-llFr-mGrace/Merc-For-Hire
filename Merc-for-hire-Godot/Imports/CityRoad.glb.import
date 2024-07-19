@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://dhnsds4xbpcvp"
-path="res://.godot/imported/CityBlock.glb-4c5b7dd4d0981c4ee241297309c371df.scn"
+uid="uid://bgqwawrw7wm53"
+path="res://.godot/imported/CityRoad.glb-164250aad3e26b41757b169bd29d9556.scn"
 
 [deps]
 
-source_file="res://Imports/CityBlock.glb"
-dest_files=["res://.godot/imported/CityBlock.glb-4c5b7dd4d0981c4ee241297309c371df.scn"]
+source_file="res://Imports/CityRoad.glb"
+dest_files=["res://.godot/imported/CityRoad.glb-164250aad3e26b41757b169bd29d9556.scn"]
 
 [params]
 

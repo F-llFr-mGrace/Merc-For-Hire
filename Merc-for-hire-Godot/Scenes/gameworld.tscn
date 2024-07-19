@@ -2,8 +2,8 @@
 
 [ext_resource type="Script" path="res://Scripts/GameMetadata.gd" id="1_u238t"]
 [ext_resource type="PackedScene" uid="uid://d17n5ihbm7u8y" path="res://Scenes/player.tscn" id="2_rmg11"]
-[ext_resource type="PackedScene" uid="uid://cyi17ftshwxf1" path="res://Scenes/cityBlock.tscn" id="4_nkl2y"]
-[ext_resource type="PackedScene" uid="uid://d0o6lp3g6oe3t" path="res://Scenes/largeGarbageBins.tscn" id="5_8a00o"]
+[ext_resource type="PackedScene" uid="uid://b0v8o85f7alt2" path="res://Scenes/city.tscn" id="4_4xrl0"]
+[ext_resource type="PackedScene" uid="uid://dxpw2uq1dytvm" path="res://Scenes/cityRoad.tscn" id="4_guc1d"]
 [ext_resource type="Script" path="res://Scripts/npcManager.gd" id="5_yu5a6"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_0o237"]
@@ -26,7 +26,6 @@ sdfgi_min_cell_size = 0.976563
 glow_enabled = true
 glow_normalized = true
 fog_density = 0.0015
-volumetric_fog_enabled = true
 volumetric_fog_density = 0.0339
 
 [sub_resource type="GDScript" id="GDScript_ru4nr"]
@@ -52,6 +51,7 @@ environment = SubResource("Environment_vwivs")
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(-0.5, -0.150384, 0.852868, 0, 0.984808, 0.173648, -0.866025, 0.0868241, -0.492404, 0, 0, 0)
 shadow_enabled = true
+shadow_blur = 4.0
 directional_shadow_max_distance = 1000.0
 
 [node name="Lights" type="Node3D" parent="."]
@@ -62,7 +62,9 @@ transform = Transform3D(0.487266, 0, 0.873254, 0, 1, 0, -0.873254, 0, 0.487266, 
 
 [node name="World Meshes" type="Node3D" parent="."]
 
-[node name="CityBlock" parent="World Meshes" instance=ExtResource("4_nkl2y")]
+[node name="City" parent="World Meshes" instance=ExtResource("4_4xrl0")]
+
+[node name="CityRoad2" parent="World Meshes/City" instance=ExtResource("4_guc1d")]
 
 [node name="NPC Manager" type="Node3D" parent="."]
 script = ExtResource("5_yu5a6")
@@ -70,6 +72,3 @@ script = ExtResource("5_yu5a6")
 [node name="CivilianSpawnGroup" type="Node3D" parent="NPC Manager"]
 
 [node name="GangSpawnGroup" type="Node3D" parent="NPC Manager"]
-
-[node name="LargeGarbageBins" parent="." instance=ExtResource("5_8a00o")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.6606, 4.76837e-07, -82.7757)
