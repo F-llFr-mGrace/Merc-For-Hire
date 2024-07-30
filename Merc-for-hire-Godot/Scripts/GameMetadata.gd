@@ -1,6 +1,9 @@
 extends Node3D
 
+
+@onready var poi = $POI
 @onready var allNpcs = get_tree().get_nodes_in_group("npcInteractable")
+
 var oldVal = []
 var npcSpawns = []
 

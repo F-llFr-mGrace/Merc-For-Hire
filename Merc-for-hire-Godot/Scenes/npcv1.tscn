@@ -1,25 +1,27 @@
-[gd_scene load_steps=6 format=3 uid="uid://d0oym4yaswh2o"]
+[gd_scene load_steps=7 format=3 uid="uid://d0oym4yaswh2o"]
 
 [ext_resource type="Script" path="res://Scripts/npcData.gd" id="1_ohc0w"]
 [ext_resource type="Script" path="res://Scripts/npcInteraction.gd" id="2_v774w"]
 
-[sub_resource type="CapsuleMesh" id="CapsuleMesh_ghxtu"]
-
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_cejyp"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_w3lr5"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_ghxtu"]
+material = SubResource("StandardMaterial3D_w3lr5")
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_onktu"]
 radius = 0.6
 
-[node name="NPCV1" type="Node3D"]
+[node name="NPCV1" type="CharacterBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
 script = ExtResource("1_ohc0w")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("CapsuleShape3D_cejyp")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 mesh = SubResource("CapsuleMesh_ghxtu")
-
-[node name="StaticBody3D" type="StaticBody3D" parent="."]
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
-shape = SubResource("CapsuleShape3D_cejyp")
 
 [node name="DialogueDetection" type="Area3D" parent="." groups=["npcInteractable"]]
 collision_layer = 2
@@ -42,6 +44,8 @@ outline_render_priority = -2
 text = "nameless"
 font_size = 128
 outline_size = 15
+
+[node name="NavigationAgent3D" type="NavigationAgent3D" parent="."]
 
 [connection signal="body_entered" from="DialogueDetection" to="DialogueDetection" method="_on_body_entered"]
 [connection signal="body_exited" from="DialogueDetection" to="DialogueDetection" method="_on_body_exited"]

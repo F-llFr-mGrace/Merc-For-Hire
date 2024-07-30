@@ -23,5 +23,4 @@ func _ready():
 func createNewNpcAt(spawn, giveFaction, giveWealth):
 	var npc = npcV1.instantiate()
 	spawn.add_child(npc)
-	npc.giveOwnerAttributes(giveFaction, giveWealth)
-	npc.position.y += 1
+	npc.ownerGiveAttributes(giveFaction, giveWealth)

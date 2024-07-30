@@ -4,14 +4,16 @@
 [ext_resource type="Script" path="res://Scripts/playerIsInteracting.gd" id="2_r81a5"]
 [ext_resource type="Script" path="res://Scripts/changeLabel.gd" id="3_atj60"]
 
-[sub_resource type="CapsuleMesh" id="CapsuleMesh_5b811"]
+[sub_resource type="BoxMesh" id="BoxMesh_xig8d"]
+size = Vector3(0.5, 1.74, 0.29)
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_h8bgl"]
 albedo_color = Color(0, 0.635294, 1, 1)
 
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_a4qa1"]
 
-[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_gdcs2"]
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_shumn"]
+height = 1.74
 
 [node name="Player" type="CharacterBody3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
@@ -19,26 +21,26 @@ script = ExtResource("1_d5abh")
 sens = 1.0
 
 [node name="Body" type="MeshInstance3D" parent="."]
-mesh = SubResource("CapsuleMesh_5b811")
+mesh = SubResource("BoxMesh_xig8d")
 surface_material_override/0 = SubResource("StandardMaterial3D_h8bgl")
 
 [node name="Visor" type="MeshInstance3D" parent="Body"]
-transform = Transform3D(-1.67852e-08, 0.3, 0, -0.384, -1.31134e-08, 0, 0, 0, 0.2, 0, 0.5, -0.5)
+transform = Transform3D(-1.67852e-08, 0.3, 0, -0.384, -1.31134e-08, 0, 0, 0, 0.2, 0, 0.5, -0.2)
 mesh = SubResource("CapsuleMesh_a4qa1")
 skeleton = NodePath("../..")
 
 [node name="Backpack" type="MeshInstance3D" parent="Body"]
-transform = Transform3D(-5.37125e-08, 0.3, 0, -1.2288, -1.31134e-08, 0, 0, 0, 0.44, 0, 0, 0.5)
+transform = Transform3D(-5.37125e-08, 0.3, 0, -1.2288, -1.31134e-08, 0, 0, 0, 0.44, 0, 0.189679, 0.23414)
 mesh = SubResource("CapsuleMesh_a4qa1")
 skeleton = NodePath("../..")
 
 [node name="PlayerBodyCollison" type="CollisionShape3D" parent="."]
-shape = SubResource("CapsuleShape3D_gdcs2")
+shape = SubResource("CapsuleShape3D_shumn")
 
 [node name="PlayerCams" type="Node3D" parent="."]
 
 [node name="Eyes" type="Camera3D" parent="PlayerCams"]
-transform = Transform3D(1, -2.13162e-14, -1.94818e-20, 2.13162e-14, 1, 2.38419e-07, 1.43996e-20, -2.38419e-07, 1, 0, 0.49219, -0.456814)
+transform = Transform3D(1, -2.13162e-14, -1.94818e-20, 2.13162e-14, 1, 2.38419e-07, 1.43996e-20, -2.38419e-07, 1, 0, 0.49219, -0.156814)
 current = true
 near = 0.005
 
