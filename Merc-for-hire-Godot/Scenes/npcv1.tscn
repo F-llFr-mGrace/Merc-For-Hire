@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://d0oym4yaswh2o"]
+[gd_scene load_steps=8 format=3 uid="uid://d0oym4yaswh2o"]
 
 [ext_resource type="Script" path="res://Scripts/npcData.gd" id="1_ohc0w"]
 [ext_resource type="Script" path="res://Scripts/npcInteraction.gd" id="2_v774w"]
@@ -9,6 +9,8 @@
 
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_ghxtu"]
 material = SubResource("StandardMaterial3D_w3lr5")
+
+[sub_resource type="BoxMesh" id="BoxMesh_scwtb"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_onktu"]
 radius = 0.6
@@ -22,6 +24,10 @@ shape = SubResource("CapsuleShape3D_cejyp")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 mesh = SubResource("CapsuleMesh_ghxtu")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="MeshInstance3D"]
+transform = Transform3D(0.178506, 0, 0, 0, 0.131846, 0, 0, 0, 0.537644, 0, -0.336755, -0.700095)
+mesh = SubResource("BoxMesh_scwtb")
 
 [node name="DialogueDetection" type="Area3D" parent="." groups=["npcInteractable"]]
 collision_layer = 2
@@ -41,7 +47,7 @@ double_sided = false
 no_depth_test = true
 alpha_cut = 2
 outline_render_priority = -2
-text = "nameless"
+text = "Alex Wood (singlular)"
 font_size = 128
 outline_size = 15
 
